@@ -34,6 +34,7 @@
         />
 	</line>
 </svg></div></div></div></form><tw-storydata name="Les Terres d&#39;Echo" startnode="1" creator="Twine" creator-version="2.8.1" format="Chapbook" format-version="1.2.3" ifid="227606DE-1D69-4680-BD32-6DBD57351AE1" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="Fin" color="red"></tw-tag><tw-tag name="Fait" color="green"></tw-tag><tw-tag name="En-cours" color="orange"></tw-tag><tw-tag name="Temporaire" color="yellow"></tw-tag><tw-passagedata pid="1" name="Introduction" tags="" position="2850,125" size="100,100">_NomJoueur:&quot;&quot;
+_Fin:0
 _Time: 10
 _Fragment: 0
 _Eol: false
@@ -64,7 +65,7 @@ _FinHarmonia:false
 [after 1 second]
 *&quot;Où suis-je ?&quot;*
 
-[after 3 second; append]
+[after 2 second; append]
 Je me redresse, le sol sous moi est doux, accueillant, mais froid. [[Poursuivre-&gt;Introduction2]] 
 
 
@@ -75,11 +76,12 @@ Au sommet de la colline, alors que le soleil commence sa descente vers l&#39;hor
 
 Le chemin mène vers un attroupement animé au bas de la colline. 
 
-De là où je me tiens je distingur les figures de deux chevaliers et un groupe de paysans, engagés dans une discussion qui semble à la fois sérieuse et animée. 
+De là où je me tiens je distingue les figures de deux chevaliers et un groupe de paysans, engagés dans une discussion qui semble à la fois sérieuse et animée. 
 
-Face à cette scène, une décision s&#39;impose : 
+Que vais-je faire ?
 &gt;[[M&#39;approcher pour découvrir la nature de leur échange, offrir mon aide ou mon avis ?-&gt;s&#39;approcher]]
-&gt;[[Ou continuer ma route laissant derrière moi cet aperçu de la vie locale, pour découvrir par ce que Solelhaven a à m&#39;offrir ?-&gt;continuer la route]] </tw-passagedata><tw-passagedata pid="3" name="s&#39;approcher" tags="" position="250,1225" size="100,100">[if _irrigation]
+&gt;[[Continuer ma route laissant derrière moi cet aperçu de la vie locale, pour découvrir par ce que Solelhaven a à m&#39;offrir.-&gt;continuer la route]].
+</tw-passagedata><tw-passagedata pid="3" name="s&#39;approcher" tags="" position="250,1225" size="100,100">[if _irrigation]
 De nouvelles idées me sont venues et je [[m&#39;empresse d&#39;en faire part au groupe-&gt;ici]].
 
 [else]
@@ -95,7 +97,7 @@ Trois chemins s&#39;offrent à moi, chacun promettant sa propre aventure alors q
 
 &gt;[[Le sentier]]À peine visible, un chemin étroit serpente à travers la dense forêt qui borde la route principale. On raconte que ce sentier abrite des secrets aussi vieux que les Terres d&#39;Echo elles-mêmes, mais le danger y rôde également, surtout la nuit. 
 &gt;[[La route principale-&gt;Voyage tranquille]]Large et pavée, la route principale promet un voyage sans encombre mais plus long. Les patrouilles de chevaliers y sont fréquentes, offrant une certaine sécurité, mais aussi la possibilité de rencontres inattendues avec d&#39;autres voyageurs.
-&gt;[[Le chemin de la rivière]]Suivre le cours tranquille de la rivière pourrait être le choix le plus pittoresque. Les reflets de la lune sur l&#39;eau guideraient votre chemin, mais qui sais quelles créatures viennent s&#39;abreuver à la nuit tombée.</tw-passagedata><tw-passagedata pid="5" name="Observer silencieusement." tags="" position="450,1400" size="100,100">Choisissant de rester en retrait, vous vous postez à une distance respectueuse, observant silencieusement la scène se dérouler devant vous. L&#39;échange, bien que vif, est empreint d&#39;une évidente bienveillance. Vous notez la manière dont chaque personne s&#39;exprime et la façon dont les autres écoutent attentivement, un témoignage de la cohésion et du respect mutuel qui semblent régir les interactions dans ce royaume. Cette observation vous offre un aperçu précieux de la culture et des valeurs de Val-d&#39;Oria, soulignant l&#39;importance de la communauté et du dialogue constructif. C&#39;est une leçon silencieuse sur la puissance de l&#39;écoute et du respect dans la résolution des conflits.
+&gt;[[Le chemin de la rivière]]Suivre le cours tranquille de la rivière pourrait être le choix le plus pittoresque. Les reflets de la lune sur l&#39;eau guideraient votre chemin, mais qui sais quelles créatures viennent s&#39;abreuver à la nuit tombée.</tw-passagedata><tw-passagedata pid="5" name="Observer silencieusement." tags="" position="450,1400" size="100,100">Choisissant de rester en retrait, je me poste à une distance respectueuse, observant silencieusement la scène se dérouler devant moi. L&#39;échange, bien que vif, est empreint d&#39;une évidente bienveillance. Je note la manière dont chaque personne s&#39;exprime et la façon dont les autres écoutent attentivement, un témoignage de la cohésion et du respect mutuel qui semblent régir les interactions dans ce royaume. Cette observation m&#39;offre un aperçu précieux de la culture et des valeurs de Val-d&#39;Oria, soulignant l&#39;importance de la communauté et du dialogue constructif. C&#39;est une leçon silencieuse sur la puissance de l&#39;écoute et du respect dans la résolution des conflits.
 
 &gt;[[Intervenir pour offrir votre aide ou une suggestion.]] 
 &gt;[[poursuivre votre route ?-&gt;continuer la route]]
@@ -107,7 +109,7 @@ Trois chemins s&#39;offrent à moi, chacun promettant sa propre aventure alors q
 
 &gt;[[Créer un système d&#39;irrigation goutte à goutte-&gt;Système d&#39;irrigation goutte à goutte]]
 &gt;[[Creuser de nouveaux puits]]
-&gt;[[Développer un la collecte d&#39;eau de pluie-&gt;Collecte d&#39;eau de pluie]]
+&gt;[[Développer la collecte d&#39;eau de pluie-&gt;Collecte d&#39;eau de pluie]]
 &gt;[[Mettre en place la rotation des cultures-&gt;Rotation des cultures]]
 &gt;[[Aucune idée ne me vient en tête-&gt;Demander la route de Solelhaven]]</tw-passagedata><tw-passagedata pid="7" name="Le sentier" tags="" position="800,1375" size="100,100">_RencontreSentierScene:[&#39;Serren&#39;,&#39;l\&#39;Arbre chantant&#39;,&#39;La clairière luminescente&#39;,&#39;Voyage tranquille&#39;]
 _RencontreSentier: _RencontreSentierScene[random.d4-1]
@@ -163,21 +165,16 @@ Au moment ou vje m&#39;apprête à répondre, cette question ne me semble plus s
 
 La question flotte dans mon esprit embrumé, chaque pensée semble émerger du néant.
 
-[after 1 second]
 La forêt qui m&#39;entoure est à la fois étrangère et familière. Des images, des sensations, des fragments de souvenirs dansent à la périphérie de ma conscience.
 
-[after 2 second]
 Il y a des visages, des lieux, des émotions, mais ils s&#39;évanouissent dès que j&#39;essaie de les saisir. *&quot;Qui suis-je ?&quot;* Cette question semble encore plus lourde.
-
 
 Un vent doux caresse ma peau, apportant avec lui des murmures...*Val-d&#39;Oria,Miranthia*... des noms qui résonnent avec une nostalgie inexplicable. 
 
 Comme guidé par une force inconnue, je sais que je dois explorer, découvrir, reconstruire. 
 
-
 Les Terres d&#39;Echo m&#39;appellent, mais pourquoi ?
 
-[after 3 second]
 ***
 
 Mon cœur bat la chamade, non pas de peur, mais d&#39;excitation. Un chemin s&#39;ouvre devant moi, invisible aux yeux, mais clair à mon âme. 
@@ -203,9 +200,11 @@ Lorsque les murmures s&#39;élèvent en tempête, c&#39;est l&#39;Empereur des O
 &gt;[[Visiter Nuiveille-&gt;Nuitveille]]
 &gt;[[Se rendre à Crespusculine-&gt;Crepusculine]]	
 &gt;[[Explorer la Forêt des Miroirs-&gt;Forêt des Miroirs ]]
-&gt;[[S&#39;enfoncer dans les Mines de Lune-&gt;Les Mines de Lune]]</tw-passagedata><tw-passagedata pid="16" name="les Terres Frontalières." tags="" position="3525,575" size="100,100">À peine les limites des Terres Frontalières franchies, une sensation de liberté mêlée d&#39;incertitude m&#39;envahit. 
+&gt;[[S&#39;enfoncer dans les Mines de Lune-&gt;Les Mines de Lune]]</tw-passagedata><tw-passagedata pid="16" name="les Terres Frontalières." tags="" position="3525,575" size="100,100">{embed image: &#39;./assets/terres_frontalieres.webp&#39;}
 
-La vastitude de ces terres se déploie, un paysage sauvage où la nature et le mystère se côtoient en une harmonie précaire. A
+À peine les limites des Terres Frontalières franchies, une sensation de liberté mêlée d&#39;incertitude m&#39;envahit. 
+
+La vastitude de ces terres se déploie, un paysage sauvage où la nature et le mystère se côtoient en une harmonie précaire. 
 
 Au loin, une caravane de nomades se dessine contre l&#39;horizon, promesse de rencontres et de récits épiques. 
 
@@ -215,7 +214,8 @@ Chaque direction offre un chemin différent, une aventure à embrasser. Mon cœu
 
 &gt;[[Se diriger vers la caravane-&gt;caravane de nomades]]
 &gt;[[Aller explorer les ruines-&gt; ruines d&#39;un village]]
-&gt;[[S&#39;approcher de la tour de guet-&gt;Guet des Anciens]]</tw-passagedata><tw-passagedata pid="17" name="mapp" tags="" position="2850,425" size="100,100">_PassageAvantTirage: passage.name
+&gt;[[S&#39;approcher de la tour de guet-&gt;Guet des Anciens]]
+&gt;[[Revenir à la croisée des chemins-&gt;mapp]] </tw-passagedata><tw-passagedata pid="17" name="mapp" tags="" position="2850,425" size="100,100">_PassageAvantTirage: passage.name
 --
 # La croisée des chemins
 {embed image: &#39;./assets/mat.webp&#39;}
@@ -282,16 +282,26 @@ _Tirage:  my.tarot.deck[random.d20-1]
 --
 [[{_Tirage}]]
 
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="22" name="caravane de nomades" tags="Temporaire" position="3525,750" size="100,100">Alors que le soleil décline, baignant les Terres Frontalières dans une lumière dorée, je tombe sur une caravane de nomades, leurs tentes éparpillées comme des joyaux sous le ciel crépusculaire. &quot;Salutations, étranger,&quot; m&#39;accueille une voix chaleureuse, celle d&#39;un homme dont le visage est marqué par les vents du voyage. Autour de nous, la vie s&#39;agite, un mélange de rires, de chants et de l&#39;odeur envoûtante de plats cuisinés sur des feux ouverts. &quot;Viens partager notre feu, notre histoire,&quot; m&#39;invite-t-il, geste qui semble transcender les mots, une offre d&#39;appartenance et de découverte dans ce monde de passages éphémères.
+[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="22" name="caravane de nomades" tags="Temporaire" position="3550,750" size="100,100">Alors que le soleil décline, baignant les Terres Frontalières dans une lumière dorée, je tombe sur une caravane de nomades, leurs tentes éparpillées comme des joyaux sous le ciel crépusculaire. *&quot;Salutations, étranger,&quot;* m&#39;accueille une voix chaleureuse, celle d&#39;une femme dont le visage est marqué par les vents du voyage. Autour de nous, la vie s&#39;agite, un mélange de rires, de chants et de l&#39;odeur envoûtante de plats cuisinés sur des feux ouverts. *&quot;Viens partager notre feu, notre histoire,&quot;*m&#39;invite-t-elle, geste qui semble transcender les mots, une offre d&#39;appartenance et de découverte dans ce monde de passages éphémères.
 
-[[les Terres Frontalières.]] </tw-passagedata><tw-passagedata pid="23" name=" ruines d&#39;un village" tags="Temporaire" position="3700,750" size="100,100">L&#39;ombre des ruines s&#39;étend devant moi, chaque pierre un murmure du passé. Les maisons, autrefois remplies de rires et de vie, ne sont plus que l&#39;écho silencieux d&#39;une communauté disparue. &quot;Quelle histoire ces murs pourraient-ils raconter ?&quot; je me demande, en foulant le sol recouvert de mousse. La solitude de ce lieu est palpable, mais aussi sa dignité; dans cette destruction, il y a une beauté tragique, un rappel que même dans l&#39;abandon, il reste des leçons à apprendre, des secrets à découvrir.
+&gt;[[Prendre place autour du feu-&gt;Ayla]]
+&gt;[[Reprendre ma roue vers les Terres Frontalières -&gt;les Terres Frontalières.]] </tw-passagedata><tw-passagedata pid="23" name=" ruines d&#39;un village" tags="Temporaire" position="3700,750" size="100,100">_Fin:4
+--
+L&#39;ombre des ruines s&#39;étend devant moi, une toile de souvenirs déchirés peinte sur chaque pierre. Les bâtisses, autrefois vibrant de l&#39;écho joyeux des vies qui les habitaient, ne sont plus que des carcasses décharnées, des vestiges figés dans le temps, témoins silencieux de leur propre déclin. Je m&#39;avance avec précaution, mes pas résonnant dans le silence éloquent qui enveloppait les lieux, un silence brisé seulement par le murmure doux des vents qui caressaient les ruines.
 
-[[les Terres Frontalières.]] </tw-passagedata><tw-passagedata pid="24" name="Guet des Anciens" tags="" position="3400,750" size="100,100">[if _Eol]
+*&quot;Quelle histoire ces murs pourraient-ils raconter ?&quot;*, murmurais-je, les yeux rivés sur les vestiges mélancoliques de ce qui fut jadis une communauté florissante. Chaque pierre semble abriter un fragment du passé, une histoire oubliée attendant d&#39;être dévoilée.
+
+La solitude de cet endroit est si tangible, une présence familière qui m&#39;enveloppe de ses bras invisibles. Pourtant, au-delà de la désolation apparente, il y a une dignité dans cette déchéance, une beauté fragile dans la ruine. Dans chaque fissure, chaque éclat de pierre brisée, je vois le reflet d&#39;une époque révolue, une leçon inscrite dans la poussière des siècles.
+
+&gt;[[Reprendre ma roue vers les Terres Frontalières -&gt;les Terres Frontalières.]] 
+&gt;[[Je pense que ma route finie ici-&gt;embrasser l&#39;oubli]] </tw-passagedata><tw-passagedata pid="24" name="Guet des Anciens" tags="" position="3400,750" size="100,100">[if _Eol]
+{embed image: &#39;./assets/eol.webp&#39;}
 &quot;Ah, {_NomJoueur} tu es de retour ! As tu pris une décision ?&quot;
 
 &gt;[[chercher les fragments de ta mémoire éparpillés-&gt;Les fragments]]
 &gt;[[embrasser l&#39;oubli]]
 [Else]
+{embed image: &#39;./assets/guet_ancien.webp&#39;}
 Alors que je m&#39;approche du Guet des Anciens, la silhouette d&#39;un homme se dessine contre les pierres anciennes. 
 
 Sa présence semble à la fois énigmatique et imposante. *&quot;Salutations, voyageur égaré,&quot;* lance-t-il d&#39;une voix où danse un étrange mélange de gravité et de malice. 
@@ -305,11 +315,13 @@ Son regard pénétrant semble lire en moi comme dans un livre ouvert.
 *&quot;Des réponses,&quot;* je murmure, la curiosité l&#39;emportant sur l&#39;hésitation.[[*&quot;Qui suis-je ?&quot;*-&gt;Qui suis-je]]
 </tw-passagedata><tw-passagedata pid="25" name="Qui suis-je" tags="" position="3400,875" size="100,100">_Eol: true
 --
+{embed image: &#39;./assets/eol.webp&#39;}
 Eol éclate d&#39;un rire doux, comme porté par une brise légère. *&quot;Le passé est un voile délicat, mon ami. Pour certains, il offre réconfort et identité. Pour d&#39;autres, il ne représente que douleur et mystère. Mais pour toi... il pourrait être la clé.&quot;*
 
 *&quot;Ton âme résonne avec les Silhouetiens, des êtres de lumière et d&#39;ombre. Tu as voyagé plus loin que la plupart, franchissant les frontières du temps et de l&#39;espace. Mais ta mémoire... elle a été fragmentée, dispersée comme les feuilles par le vent.&quot;*
 
-*[[&quot;les Silhouetiens ?&quot;]]*</tw-passagedata><tw-passagedata pid="26" name="Les fragments" tags="" position="2950,1075" size="100,100">Lorsque tu reviens vers moi, porteur des fragments de ton passé, chaque pièce en main résonne avec les échos d&#39;une histoire oubliée. Laisse-moi te guider à travers le voile des souvenirs retrouvés.
+*[[&quot;les Silhouetiens ?&quot;]]*</tw-passagedata><tw-passagedata pid="26" name="Les fragments" tags="" position="2950,1075" size="100,100">{embed image: &#39;./assets/eol.webp&#39;}
+Lorsque tu reviens vers moi, porteur des fragments de ton passé, chaque pièce en main résonne avec les échos d&#39;une histoire oubliée. Laisse-moi te guider à travers le voile des souvenirs retrouvés.
 
 [if _Fragment === 0]
 *&quot;Hum, je vois qu&#39;il est trop tôt. Il te reste encore trop de chose à explorer mais n&#39;hésite pas à repasser me voir lorsque tu te sentiras prêt.&quot;*
@@ -352,14 +364,16 @@ Chaque fragment te rapproche de la vérité, chaque pas te mène vers la lumièr
 
 
 
-</tw-passagedata><tw-passagedata pid="27" name="embrasser l&#39;oubli" tags="Fin" position="2925,900" size="100,100">[if _FinEol]
+</tw-passagedata><tw-passagedata pid="27" name="embrasser l&#39;oubli" tags="Fin" position="2925,900" size="100,100">[if _Fin === 2]
+{embed image: &#39;./assets/guet_ancien.webp&#39;}
 Alors que le soleil décline à l&#39;horizon, teintant le ciel de nuances ardentes, je me tiens au sommet du Guet des Anciens, face à un choix irréversible. Eol Grisebrume, le chaman, à mes côtés, observe en silence. *&quot;J&#39;embrasse l&#39;oubli,&quot;* dis-je, une résolution tremblante dans la voix. Ce n&#39;est pas une fin, mais un nouveau commencement. Un sourire énigmatique se dessine sur les lèvres d&#39;Eol, et il murmure une incantation, les vents autour de nous se mettant à chanter une mélodie ancienne.
 
 Les fragments de ma mémoire s&#39;évanouissent comme des ombres au petit matin, laissant place à une toile vierge sur laquelle je pourrai peindre de nouveaux rêves, forger de nouvelles réalités. La paix s&#39;infiltre dans mon cœur, une acceptation douce de l&#39;instant présent, libéré des chaînes du passé.
 
 Je tourne le dos au Guet, mes pas résonnant avec une assurance nouvelle sur le chemin du retour. Chaque souffle, chaque battement de cœur est un hymne à la renaissance, à l&#39;exploration d&#39;un monde riche de possibilités inexplorées. Les Terres d&#39;Echo, avec leurs mystères et leurs merveilles, m&#39;attendent. Et je m&#39;avance, non pas en tant que silhouette perdue dans le brouillard du temps, mais en tant qu&#39;esprit libre, prêt à écrire sa propre légende.
 
-[if _FinSolelhaven]
+[if _Fin === 1]
+{embed image: &#39;./assets/solelhaven_global.webp&#39;}
 Dans les rues animées de Solelhaven, au milieu des préparatifs de la foire et des chants qui s&#39;élèvent dans l&#39;air, une décision s&#39;ancre au plus profond de moi. &quot;Et si la quête n&#39;était pas le but ? Et si l&#39;oubli était la clé ?&quot; La question, une fois formulée dans le silence de mon esprit, semble échoir avec une clarté troublante.
 
 Je marche lentement, mes pas me guidant à travers la ville, non plus en quêteur avide de réponses, mais en observateur silencieux de la vie qui se déploie autour de moi. Les rires des enfants jouant dans les ruelles, les sourires des marchands partageant leurs récoltes, la mélodie des musiciens éparpillant des notes de joie dans l&#39;air... Tout cela me parle d&#39;une existence où l&#39;oubli n&#39;est pas une perte, mais un don.
@@ -370,18 +384,29 @@ Alors, dans un geste symbolique, je décide de laisser aller. De laisser les mor
 
 &quot;C&#39;est dans l&#39;oubli que je me trouve,&quot; je me dis, un sourire naissant sur mes lèvres. Un poids se lève de mes épaules, me laissant avec une sensation de liberté et de paix intérieure. Je suis prêt à embrasser chaque jour comme un nouveau départ, un tableau vierge sur lequel l&#39;univers, dans sa générosité infinie, m&#39;invite à peindre ma propre histoire.
 
-[if _FinHarmonia]
+[if _Fin === 3 ]
+{embed image: &#39;./assets/Harmonia.webp&#39;}
 Je choisis de rester à Harmonia, je m&#39;immerge dans cette symphonie urbaine, trouvant ma place parmi les Harmoniens. Je découvre rapidement que ma voix, unique en son genre, s&#39;entrelace avec celles des autres, créant des mélodies nouvelles, inexplorées. Je participe à la vie de la cité, apprenant à communiquer mes pensées et mes sentiments à travers la musique. Les jours passent, et je me sens de plus en plus enraciné dans cette culture où chaque note jouée résonne avec l&#39;essence même de mon être. Harmonia devient mon foyer, un lieu où la musique façonne la réalité, guérit les cœurs et lie les âmes. Je réalise que je n&#39;ai plus envie de partir, que ma quête m&#39;a mené exactement là où je devais être.
+
+[if _Fin === 4]
+Je me laisse envahir par l&#39;émotion de cet instant, mes doigts effleurant doucement les ruines comme pour sentir la pulsation lointaine d&#39;une vie passée. Car même dans l&#39;abandon, même dans l&#39;obscurité de l&#39;oubli, il y a encore des histoires à raconter, des secrets à découvrir.
+
+Et tandis que je me perd dans les dédales de ces ruines oubliées, je sais qu&#39;à chaque coin de rue, derrière chaque porte défoncée, se cachent des trésors, des vérités enfouies attendant d&#39;être dévoilées à ceux qui osent s&#39;aventurer dans les dédales tortueux du passé.
+
+Alors que je ferme les yeux, une vague de calme m&#39;envahit. &quot;Et si ce n&#39;était pas mon chemin ?&quot; La pensée, loin d&#39;être terrifiante, est un baume. J&#39;embrasse l&#39;oubli, non pas comme une défaite, mais comme un choix. La quête de sens, l&#39;aventure, les réponses resteront pour d&#39;autres. Moi, je choisis le silence, la paix d&#39;un esprit qui ne cherche plus, qui accepte le mystère sans le questionner. C&#39;est dans cet inconnu que je trouve ma vérité, un horizon sans promesse mais aussi sans peur.
 
 [Else]
 Alors que je ferme les yeux, une vague de calme m&#39;envahit. &quot;Et si ce n&#39;était pas mon chemin ?&quot; La pensée, loin d&#39;être terrifiante, est un baume. J&#39;embrasse l&#39;oubli, non pas comme une défaite, mais comme un choix. La quête de sens, l&#39;aventure, les réponses resteront pour d&#39;autres. Moi, je choisis le silence, la paix d&#39;un esprit qui ne cherche plus, qui accepte le mystère sans le questionner. C&#39;est dans cet inconnu que je trouve ma vérité, un horizon sans promesse mais aussi sans peur.
 
 </tw-passagedata><tw-passagedata pid="28" name="&quot;les Silhouetiens ?&quot;" tags="" position="3275,1000" size="100,100">_FinEol:true
+_Fin:2
 --
+{embed image: &#39;./assets/eol.webp&#39;}
 *&quot;Les Silhouetiens, tu vois, sont les gardiens des frontières, là où le tangible flirte avec l&#39;impalpable. Ils marchent sur le fil de l&#39;invisible, maîtres des non-dits, des espaces entre les mots, entre les mondes. Toi, enfant de cette lignée, tu portes en toi cette capacité à voir au-delà, à comprendre les murmures de l&#39;ombre comme ceux de la lumière. Ta quête n&#39;est pas seulement de retrouver qui tu étais, mais de révéler ce que tu peux devenir.&quot;*
 
 *&quot;Tu peux choisir de chercher les fragments de ta mémoire éparpillés à travers les Terres d&#39;Echo. Chaque pièce récupérée te rapprochera de la vérité.&quot;*
 *&quot;Ou alors, tu peux choisir d&#39;embrasser l&#39;oubli, de vivre dans le présent et de forger une nouvelle identité. Parfois, le plus grand courage réside dans la capacité à laisser aller.&quot;*
+
 &gt;[[chercher les fragments de ta mémoire éparpillés-&gt;flash back Silouhetiens]]
 &gt;[[embrasser l&#39;oubli]]</tw-passagedata><tw-passagedata pid="29" name="flash back Silouhetiens" tags="" position="3275,1125" size="100,100">_Fragment: _Fragment + 1
 --
@@ -431,11 +456,12 @@ Althea hoche la tête visiblement peu convaincue : *&quot;L&#39;urgence ne justi
 --
 *&quot;Errat est un guide pour ceux qui cherchent à se perdre, pas dans un sens physique, mais en s&#39;éloignant des sentiers battus de leur existence pour embrasser l&#39;inconnu. Son essence repose dans la beauté de se perdre pour mieux se retrouver, dans la richesse de l&#39;inattendu qui se révèle quand on laisse de côté nos plans pour se laisser guider par le hasard. Ses disciples pratiquent des pèlerinages sans but précis, en quête de révélations sur eux-mêmes ou le monde, révélations qui n&#39;auraient pu émerger dans le confort du connu.&quot;*
 
-{back link,label:&#39;Reprendre la conversation&#39;}</tw-passagedata><tw-passagedata pid="35" name="Solelhaven" tags="En-cours" position="825,2225" size="100,100">_PassageAvantTirage: passage.name
+{back link,label:&#39;Reprendre la conversation&#39;}</tw-passagedata><tw-passagedata pid="35" name="Solelhaven" tags="En-cours" position="800,2225" size="100,100">_PassageAvantTirage: passage.name
 _Bien: _ValDoria &gt;= 0 &amp;&amp; _Errat &amp;&amp; !_Solelhaven
 _Moyen: (_ValDoria &lt;=0 &amp;&amp; _Errat &amp;&amp; !_Solelhaven) | (_ValDoria &gt;= 0 &amp;&amp; !_Errat &amp;&amp; !_Solelhaven)
 _Mauvais: _ValDoria &lt;=0 &amp;&amp; !_Errat &amp;&amp; !_Solelhaven
 _FinSolelhaven:true
+_Fin:1
 --
 [if _Solelhaven]
 ## Solelhaven
@@ -443,11 +469,15 @@ _FinSolelhaven:true
 
 &gt;[[Se rendre à la biliothèque-&gt;Bibliothèque]]
 &gt;[[Se rendre au port-&gt;Port_Solelhaven]]
+&gt;[[Aller voir le marchand de vin-&gt;Discussion avec un Marchand de Vin]]
+&gt;[[S&#39;approcher du sculpteur-&gt;artisan_sculpteur]]
 &gt;[[Revenir à la croisée des chemins-&gt;mapp]] 
 [if _Restaurateur]
 &gt;[[Retourner voir le restaurateur-&gt;Restaurateur]]
 [if _Harmonia]
 &gt;[[Se rendre à Harmonia-&gt;Harmonia]]
+[if !_Harmonia]
+&gt;[[Suivre la musique entrainante-&gt;Chemin d&#39;Harmonia]]
 
 [if _Bien]
 {embed image: &#39;./assets/solelhaven_foire.webp&#39;}
@@ -489,7 +519,7 @@ A l&#39;exception d&#39;un enfant qui semble m&#39;observer, les visages que je 
 Les rues, autrefois sources de vie et de communion, me paraissent maintenant des labyrinthes de solitude. *&quot;Qu&#39;ai-je manqué en chemin ?&quot;* L&#39;interrogation pèse lourd, chaque pas un rappel de l&#39;écart grandissant entre moi et le cœur de Val-d&#39;Oria. 
 
 Solelhaven, malgré sa beauté voilée par l&#39;orage imminent, me semble une énigme insaisissable, un lieu où je dois apprendre, peut-être trop tard, la valeur de l&#39;harmonie avec les lois de ce monde.
-&gt;[[Interperler l&#39;enfant-&gt;L&#39;enfant]]
+&gt;[[Interpeller l&#39;enfant-&gt;L&#39;enfant]]
 &gt;[[Chercher une taverne-&gt;Taverne Solelhaven]]
 &gt;[[Ma quêtes vaut-elle ces efforts ? Je décide d&#39;abandonner-&gt;embrasser l&#39;oubli]] 
 [if _TarotDeck]
@@ -504,9 +534,7 @@ _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/magician.webp&#39;}
 
-En contemplant Le Magicien, je sens un appel à l&#39;action, une invitation à utiliser toutes les ressources à ma disposition. &quot;Tout est possible,&quot; me murmure-t-il, &quot;si tu sais manier les outils à ta portée.&quot;
-
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="37" name="II THE HIGH PRIESTESS" tags="" position="100,0" size="100,100">_ValDoria: random.d4-random.d4
+En contemplant Le Magicien, je sens un appel à l&#39;action, une invitation à utiliser toutes les ressources à ma disposition. *&quot;Tout est possible,&quot;* me murmure-t-il, *&quot;si tu sais manier les outils à ta portée.&quot;* [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="37" name="II THE HIGH PRIESTESS" tags="" position="100,0" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
 _IleBrumeuse: random.d4-random.d4
@@ -514,180 +542,140 @@ _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/papesse.webp&#39;}
 
-La Papesse, avec son voile mystérieux, me rappelle le pouvoir de l&#39;intuition. &quot;Écoute le silence,&quot; semble-t-elle dire, &quot;car les réponses que tu cherches résident dans les profondeurs de ton âme.&quot;
-
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="38" name="III THE EMPRESS" tags="" position="200,0" size="100,100">_ValDoria: random.d4-random.d4
+La Papesse, avec son voile mystérieux, me rappelle le pouvoir de l&#39;intuition. *&quot;Écoute le silence,&quot;* semble-t-elle dire, *&quot;car les réponses que tu cherches résident dans les profondeurs de ton âme.&quot;* [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="38" name="III THE EMPRESS" tags="" position="200,0" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
 _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/imperatrice.webp&#39;}
-L&#39;Impératrice, baignée dans la fertilité et l&#39;abondance de la nature, me réconforte. Elle évoque la création, la beauté, et le soin, me rappelant que la douceur et l&#39;empathie sont des forces puissantes.
-
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="39" name="IV THE EMPEROR" tags="" position="300,0" size="100,100">_ValDoria: random.d4-random.d4
+L&#39;Impératrice, baignée dans la fertilité et l&#39;abondance de la nature, me réconforte. Elle évoque la création, la beauté, et le soin, me rappelant que la douceur et l&#39;empathie sont des forces puissantes. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="39" name="IV THE EMPEROR" tags="" position="300,0" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
 _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/empereur.webp&#39;}
-L&#39;Empereur m&#39;impose une vision de structure et d&#39;autorité. &quot;Bâtis sur des fondations solides,&quot; conseille-t-il, soulignant l&#39;importance de l&#39;ordre et de la discipline dans la quête de mes ambitions.
-
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="40" name="V THE HIEROPHANT" tags="" position="400,0" size="100,100">_ValDoria: random.d4-random.d4
+L&#39;Empereur m&#39;impose une vision de structure et d&#39;autorité. *&quot;Bâtis sur des fondations solides.&quot;* conseille-t-il, soulignant l&#39;importance de l&#39;ordre et de la discipline dans la quête de mes ambitions. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="40" name="V THE HIEROPHANT" tags="" position="400,0" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
 _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/pape.webp&#39;}
-Le Pape me parle de tradition et de spiritualité. À travers lui, je perçois un lien avec le passé, une invitation à trouver ma place au sein d&#39;un ordre plus grand, à chercher la sagesse dans les enseignements anciens.
-
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="41" name="VI THE LOVERS" tags="" position="500,0" size="100,100">_ValDoria: random.d4-random.d4
+Le Pape me parle de tradition et de spiritualité. À travers lui, je perçois un lien avec le passé, une invitation à trouver ma place au sein d&#39;un ordre plus grand, à chercher la sagesse dans les enseignements anciens. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="41" name="VI THE LOVERS" tags="" position="500,0" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
 _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/lovers.webp&#39;}
-Les Amoureux m&#39;invitent à un carrefour de choix passionnés, me rappelant que chaque décision forge notre chemin. Ils murmurent que l&#39;amour, sous toutes ses formes, est un guide puissant.
-
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="42" name="VII THE CHARIOT" tags="" position="600,0" size="100,100">_ValDoria: random.d4-random.d4
+Les Amoureux m&#39;invitent à un carrefour de choix passionnés, me rappelant que chaque décision forge notre chemin. Ils murmurent que l&#39;amour, sous toutes ses formes, est un guide puissant. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="42" name="VII THE CHARIOT" tags="" position="600,0" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
 _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/chariot.webp&#39;}
-Le Chariot, avec sa dynamique de mouvement et de victoire, me pousse vers l&#39;avant. &quot;Maîtrise les opposés,&quot; dit-il, m&#39;encourageant à diriger ma volonté vers la réalisation de mes objectifs.
-
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="43" name="VIII STRENGTH" tags="" position="700,0" size="100,100">_ValDoria: random.d4-random.d4
+Le Chariot, avec sa dynamique de mouvement et de victoire, me pousse vers l&#39;avant. *&quot;Maîtrise les opposés,&quot;* dit-il, m&#39;encourageant à diriger ma volonté vers la réalisation de mes objectifs. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="43" name="VIII STRENGTH" tags="" position="700,0" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
 _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/force.webp&#39;}
-La Force, non pas celle du corps, mais de l&#39;esprit et du cœur, m&#39;enseigne la maîtrise de soi. Elle souffle que la vraie puissance réside dans la douceur et le courage face à l&#39;adversité.
-
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="44" name="IX THE HERMIT" tags="" position="0,100" size="100,100">_ValDoria: random.d4-random.d4
+La Force, non pas celle du corps, mais de l&#39;esprit et du cœur, m&#39;enseigne la maîtrise de soi. Elle souffle que la vraie puissance réside dans la douceur et le courage face à l&#39;adversité. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="44" name="IX THE HERMIT" tags="" position="0,100" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
 _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/hermite.webp&#39;}
-L&#39;Ermite, avec sa lanterne solitaire, m&#39;invite à la réflexion intérieure. &quot;Cherche la lumière dans l&#39;obscurité,&quot; conseille-t-il, me rappelant que la solitude peut être un chemin vers la sagesse.
-
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="45" name="X WHEEL OF FORTUNE" tags="" position="100,100" size="100,100">_ValDoria: random.d4-random.d4
+L&#39;Ermite, avec sa lanterne solitaire, m&#39;invite à la réflexion intérieure. *&quot;Cherche la lumière dans l&#39;obscurité&quot;* conseille-t-il, me rappelant que la solitude peut être un chemin vers la sagesse. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="45" name="X WHEEL OF FORTUNE" tags="" position="100,100" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
 _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/wheel.webp&#39;}
-La Roue de la Fortune tourne, me rappelant l&#39;impermanence de tout. &quot;Accepte le changement,&quot; semble-t-elle dire, &quot;car c&#39;est le moteur de la vie.&quot;
-
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="46" name="XI JUSTICE" tags="" position="200,100" size="100,100">_ValDoria: random.d4-random.d4
+La Roue de la Fortune tourne, me rappelant l&#39;impermanence de tout. *&quot;Accepte le changement,&quot;* semble-t-elle dire, *&quot;car c&#39;est le moteur de la vie.&quot;* [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="46" name="XI JUSTICE" tags="" position="200,100" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
 _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/justice.webp&#39;}
-La Justice me confronte à l&#39;équilibre des actions et des conséquences. Elle me rappelle que la vérité et la justesse doivent guider mes décisions.
-
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="47" name="XII THE HANGED MAN" tags="" position="300,100" size="100,100">_ValDoria: random.d4-random.d4
+La Justice me confronte à l&#39;équilibre des actions et des conséquences. Elle me rappelle que la vérité et la justesse doivent guider mes décisions. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="47" name="XII THE HANGED MAN" tags="" position="300,100" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
 _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/pendu.webp&#39;}
-Le Pendu, suspendu par les pieds, me montre que parfois, voir les choses sous un autre angle est nécessaire. &quot;Lâche prise,&quot; murmure-t-il, &quot;et trouve la liberté dans le renoncement.&quot;
-
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="48" name="XIII DEATH" tags="" position="400,100" size="100,100">_ValDoria: random.d4-random.d4
+Le Pendu, suspendu par les pieds, me montre que parfois, voir les choses sous un autre angle est nécessaire. *&quot;Lâche prise,&quot;* murmure-t-il, *&quot;et trouve la liberté dans le renoncement.&quot;* [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="48" name="XIII DEATH" tags="" position="400,100" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
 _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/mort.webp&#39;}
-La Mort, loin d&#39;être une fin, symbolise la transformation. &quot;Laisse derrière ce qui n&#39;est plus nécessaire,&quot; dit-elle, me poussant à embrasser le renouveau avec courage.
-
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="49" name="XIV TEMPERANCE" tags="" position="500,100" size="100,100">_ValDoria: random.d4-random.d4
+La Mort, loin d&#39;être une fin, symbolise la transformation. *&quot;Laisse derrière ce qui n&#39;est plus nécessaire,&quot;* dit-elle, me poussant à embrasser le renouveau avec courage. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="49" name="XIV TEMPERANCE" tags="" position="500,100" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
 _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d44
 --
 {embed image: &#39;./assets/temperance.webp&#39;}
-La Tempérance, avec son flux d&#39;eau entre les coupes, m&#39;enseigne l&#39;équilibre. &quot;Harmonise tes opposés,&quot; conseille-t-elle, pour une vie pleine de sens.
-
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="50" name="XV THE DEVIL" tags="" position="600,100" size="100,100">_ValDoria: random.d4-random.d4
+La Tempérance, avec son flux d&#39;eau entre les coupes, m&#39;enseigne l&#39;équilibre. *&quot;Harmonise tes opposés,&quot;* conseille-t-elle, pour une vie pleine de sens. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="50" name="XV THE DEVIL" tags="" position="600,100" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
 _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/diable.webp&#39;}
-Le Diable me met en garde contre les chaînes de mes propres vices. &quot;La liberté se trouve dans la confrontation de tes ombres,&quot; révèle-t-il, m&#39;incitant à briser les liens de la dépendance.
-
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="51" name="XVI THE TOWER" tags="" position="700,100" size="100,100">_ValDoria: random.d4-random.d4
+Le Diable me met en garde contre les chaînes de mes propres vices. *&quot;La liberté se trouve dans la confrontation de tes ombres,&quot;* révèle-t-il, m&#39;incitant à briser les liens de la dépendance. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="51" name="XVI THE TOWER" tags="" position="700,100" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
 _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/tour.webp&#39;}
-La Tour, frappée par la foudre, symbolise la destruction soudaine des illusions. &quot;La vérité peut parfois détruire avant de libérer,&quot; dit-elle, m&#39;invitant à reconstruire sur des bases plus authentiques.
-
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="52" name="XVII THE STAR" tags="" position="0,200" size="100,100">_ValDoria: random.d4-random.d4
+La Tour, frappée par la foudre, symbolise la destruction soudaine des illusions. *&quot;La vérité peut parfois détruire avant de libérer,&quot;* dit-elle, m&#39;invitant à reconstruire sur des bases plus authentiques. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="52" name="XVII THE STAR" tags="" position="0,200" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
 _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/etoile.webp&#39;}
- L&#39;Étoile, avec son eau et sa lumière, m&#39;offre l&#39;espoir et la guérison. &quot;Crois en l&#39;avenir lumineux,&quot; chante-t-elle, me rappelant que même après la nuit la plus sombre, l&#39;aube arrive.
-
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="53" name="XVIII THE MOON" tags="" position="100,200" size="100,100">_ValDoria: random.d4-random.d4
+ L&#39;Étoile, avec son eau et sa lumière, m&#39;offre l&#39;espoir et la guérison. *&quot;Crois en l&#39;avenir lumineux,&quot;* chante-t-elle, me rappelant que même après la nuit la plus sombre, l&#39;aube arrive. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="53" name="XVIII THE MOON" tags="" position="100,200" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
 _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/lune.webp&#39;}
-La Lune, énigmatique, évoque les peurs et les illusions. &quot;Marche à travers l&#39;incertitude,&quot; murmure-t-elle, m&#39;encourageant à affronter mes peurs pour découvrir ma véritable lumière intérieure.
-
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="54" name="XIX THE SUN" tags="" position="200,200" size="100,100">_ValDoria: random.d4-random.d4
+La Lune, énigmatique, évoque les peurs et les illusions. *&quot;Marche à travers l&#39;incertitude,&quot;* murmure-t-elle, m&#39;encourageant à affronter mes peurs pour découvrir ma véritable lumière intérieure. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="54" name="XIX THE SUN" tags="" position="200,200" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
 _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/soleil.webp&#39;}
-Le Soleil brille, symbolisant le succès et la vitalité. &quot;Réjouis-toi dans la clarté,&quot; rayonne-t-il, me remplissant d&#39;une énergie positive et d&#39;une joie de vivre.
-
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="55" name="XX JUDGEMENT" tags="" position="0,300" size="100,100">_ValDoria: random.d4-random.d4
+Le Soleil brille, symbolisant le succès et la vitalité. *&quot;Réjouis-toi dans la clarté,&quot;* rayonne-t-il, me remplissant d&#39;une énergie positive et d&#39;une joie de vivre. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="55" name="XX JUDGEMENT" tags="" position="0,300" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
 _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/jugement.webp&#39;}
-Le Jugement, avec son appel à la renaissance, m&#39;invite à évaluer ma vie. &quot;Écoute ton appel intérieur,&quot; commande-t-il, me poussant à me lever et à vivre en accord avec ma vérité la plus profonde.
-
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="56" name="XXI THE WORLD" tags="" position="100,300" size="100,100">_ValDoria: random.d4-random.d4
+Le Jugement, avec son appel à la renaissance, m&#39;invite à évaluer ma vie. *&quot;Écoute ton appel intérieur,&quot;* commande-t-il, me poussant à me lever et à vivre en accord avec ma vérité la plus profonde. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="56" name="XXI THE WORLD" tags="" position="100,300" size="100,100">_ValDoria: random.d4-random.d4
 _EmpireOmbre: random.d4-random.d4
 _TerreFrontalieres: random.d4-random.d4
 _IleBrumeuse: random.d4-random.d4
 _Miranthia: random.d4-random.d4
 --
 {embed image: &#39;./assets/monde.webp&#39;}
-Le Monde, dans son achèvement, signifie la réalisation et l&#39;unité. &quot;Tout est connecté,&quot; célèbre-t-il, me rappelant que mon voyage est une partie intégrante du grand tout.
-
-[[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="57" name="Discussion avec un Marchand de Vin" tags="Temporaire" position="850,2400" size="100,100">_Solelhaven: true
+Le Monde, dans son achèvement, signifie la réalisation et l&#39;unité. *&quot;Tout est connecté,&quot;* célèbre-t-il, me rappelant que mon voyage est une partie intégrante du grand tout. [[Je vais méditer sur cela-&gt;{_PassageAvantTirage}]]</tw-passagedata><tw-passagedata pid="57" name="Discussion avec un Marchand de Vin" tags="Temporaire" position="850,2400" size="100,100">_Solelhaven: true
 _PassageAvantTirage: passage.name
 _Mauvais:false
 _Bien: false
@@ -696,7 +684,7 @@ _Moyen: false
 {embed image: &#39;./assets/solelhaven_vin.webp&#39;}
 Alors que je me trouve dans l&#39;effervescence de la préparation de la foire, un marchand, me tend un verre de sa meilleure cuvée avec un sourrire. *« Goûtez donc, étranger, à l&#39;essence même de Val-d&#39;Oria, »* me dit-il, son regard pétillant de fierté.
 
-Tandis que le vin caresse mon palais, le marchand se lance dans des récits sur les vignobles de Val-d&#39;Oria, ses mots peignant le paysage luxuriant des collines ensoleillées, où chaque vigne raconte une histoire d&#39;harmonie avec la terre. « Mais, » ajoute-t-il, laissant sa phrase suspendue dans l&#39;air comme le parfum du vin, *« c&#39;est à Verdegrove que le vin le plus fin prend racine. Là, les vignes se mêlent aux anciens bois, écoutant les murmures de la forêt pour créer des saveurs qui, dit-on, peuvent ouvrir les portes de la paix intérieure. »*
+Tandis que le vin caresse mon palais, le marchand se lance dans des récits sur les vignobles de Val-d&#39;Oria, ses mots peignant le paysage luxuriant des collines ensoleillées, où chaque vigne raconte une histoire d&#39;harmonie avec la terre. *« Mais, »* ajoute-t-il, laissant sa phrase suspendue dans l&#39;air comme le parfum du vin, *« c&#39;est à Verdegrove que le vin le plus fin prend racine. Là, les vignes se mêlent aux anciens bois, écoutant les murmures de la forêt pour créer des saveurs qui, dit-on, peuvent ouvrir les portes de la paix intérieure. »*
 
 Ses mots éveillent en moi une curiosité insatiable, non seulement pour la promesse d&#39;un vin transcendant mais aussi pour l&#39;aventure que représente le voyage vers Verdegrove. Entre les histoires de terres lointaines et le partage d&#39;un verre de vin, je sens un lien profond avec le marchand, un sentiment de partage et de découverte qui transcende le commerce du vin.
 
@@ -705,6 +693,7 @@ Alors que je finis mon verre, le marchand me lance un dernier regard, chargé d&
 Ces paroles résonnent en moi alors que je quitte la foire, le cœur léger mais l&#39;esprit plein de pensées. La route vers Verdegrove s&#39;étend devant moi, non seulement comme un voyage à travers Val-d&#39;Oria mais aussi comme un chemin vers des découvertes inattendues, peut-être même vers une paix intérieure jusqu&#39;alors insaisissable.
 
 &gt;[[Poursuivre ma visite de Solelhaven-&gt;Solelhaven]] 
+&gt;[[Me rendre à Verdegrove-&gt;Le chemin de la rivière]]
 &gt;[[Vous pouvez toujours tirer une carte pour inspirer votre journée-&gt;Tirage]]
 </tw-passagedata><tw-passagedata pid="58" name="Chemin d&#39;Harmonia" tags="" position="1300,2400" size="100,100">_Solelhaven: true
 _Mauvais:false
@@ -742,7 +731,7 @@ Ce récit éveille en moi un souvenir lointain, un héritage de mon passé. Je m
 
 Je quitte l&#39;atelier le cœur léger mais l&#39;esprit encombré de réflexions, reconnaissant au sculpteur de m&#39;avoir offert, à travers son art, un pont vers mon passé, un rappel que, même dans une terre étrangère sous un soleil éclatant, les ombres de mon héritage dansent toujours à mes côtés.
 
-&gt;[[Poursuivre ma visite de Solelhaven-&gt;FinSculpteur]]</tw-passagedata><tw-passagedata pid="60" name="Restaurateur" tags="Temporaire" position="1000,2525" size="100,100">_Solelhaven: true
+&gt;[[Poursuivre ma visite de Solelhaven-&gt;FinSculpteur]]</tw-passagedata><tw-passagedata pid="60" name="Restaurateur" tags="Temporaire" position="975,2400" size="100,100">_Solelhaven: true
 _PassageAvantTirage: passage.name
 _Mauvais:false
 _Bien: false
@@ -765,7 +754,7 @@ _Moyen: false
 {embed image: &#39;./assets/Bibliotheque_Solelhaven.webp&#39;}
 La bibliothèque de Solelhaven est un sanctuaire du savoir, une forteresse de silence où les mots ont le pouvoir de façonner des mondes. Ses murs, érigés il y a des siècles par les premiers érudits de Val-d&#39;Oria, sont tapissés de volumes anciens et de manuscrits mystiques, leurs étagères un labyrinthe de connaissances où chaque pas révèle de nouveaux horizons.
 
-Dans les alcôves poussiéreuses de cette bibliothèque, avec les bonnes cartes, on peut apprendre les arcanes de la magie naturelle, les rituels oubliés des druides, et les histoires non contées des héros d&#39;antan. Des cartes célestes aux traités sur les créatures fantastiques, chaque ouvrage est une porte ouverte sur l&#39;inconnu, un appel à l&#39;aventure pour l&#39;esprit curieux.
+Dans les alcôves poussiéreuses de cette bibliothèque, avec les bonnes cartes, on peut apprendre les arcanes de la magie naturelle, les rituels oubliés des Verdénants, et les histoires non contées des héros d&#39;antan. Des cartes célestes aux traités sur les créatures fantastiques, chaque ouvrage est une porte ouverte sur l&#39;inconnu, un appel à l&#39;aventure pour l&#39;esprit curieux.
 
 &gt;[[Explorer les rayons de la bibliothèque-&gt;Bibliothèque de Solelhaven]] 
 &gt;[[Poursuivre ma visite de Solelhaven-&gt;Solelhaven]] 
@@ -778,36 +767,21 @@ _Moyen: false
 {embed image: &#39;./assets/solelhaven_port.webp&#39;}
 À mon arrivée au port de Solelhaven, le spectacle de l&#39;activité incessante s&#39;offre à moi : des marins chargent et déchargent les navires, tandis que les marchands vantent leurs marchandises exotiques. Cependant, ce qui capte vraiment mon attention, c&#39;est le son rythmique d&#39;un marteau contre le bois. En levant les yeux, je découvre un toitier en pleine action, réparant les dégâts causés par une récente tempête.
 
-Perché sur le toit d&#39;une auberge dont l&#39;enseigne danse au gré du vent, l&#39;homme, avec une agilité impressionnante, remplace les tuiles endommagées. Son visage est marqué par le soleil et le sel, témoignant de nombreuses années passées à braver les éléments pour maintenir les bâtiments de Solelhaven en bon état.
+La ville bruisse encore derrière moi, une symphonie de voix et de vagues qui s&#39;entremêlent. Mes pensées sont tournées vers l&#39;horizon, vers les aventures qui m&#39;attendent, lorsque, du coin de l&#39;œil, je perçois un mouvement furtif. Je tourne la tête, et là, sur les marches d&#39;un escalier qui serpente le long d&#39;un bâtiment ancien, un enfant m&#39;épie.
 
-Intrigué, je m&#39;approche pour l&#39;observer de plus près. Notant mon intérêt, il s&#39;accorde une pause, essuie la sueur de son front avec le dos de sa main, et me salue d&#39;un signe de tête.
-
-*« Beau travail, »* dis-je, admirant sa dextérité.
-
-Il esquisse un sourire. *« Merci, étranger. Ces tempêtes peuvent être brutales, mais elles nous rappellent aussi combien nous sommes dépendants les uns des autres ici. »*
-
-Sa remarque me pousse à engager la conversation. Entre deux coups de marteau, il partage des anecdotes sur les tempêtes passées, les réparations d&#39;urgence, et la solidarité des habitants de Solelhaven face aux caprices de la nature.
-
-*« Vous savez, »* ajoute-t-il en plaçant une nouvelle tuile, *« chaque toit que je répare me raconte une histoire. Comme celle de l&#39;auberge ici. Elle a vu passer plus d&#39;aventuriers et de marins que la plupart des gens ne pourraient en rencontrer dans une vie entière. »*
-
-La conversation prend une tournure plus philosophique. Il parle de la mer, non seulement comme d&#39;un défi à relever, mais aussi comme d&#39;une source d&#39;inspiration et de réflexion. Puis, comme s&#39;il lisait dans mes pensées, il lance, *« Si vous cherchez l&#39;aventure, Solelhaven est un bon début. Mais c&#39;est à Verdegrove que vous trouverez ce que vous ne saviez pas chercher. Leurs vins sont comme un passage vers une paix intérieure que peu découvrent. »*
-
-Cette information énigmatique résonne en moi. Verdegrove... Je n&#39;avais pas envisagé de m&#39;y rendre, mais maintenant, la curiosité et une quête inattendue pour la paix intérieure m&#39;y appellent.
-
-Je remercie le toitier pour la conversation et ses conseils. *« Peut-être nous reverrons-nous, »* dis-je en partant.
-
-« Peut-être, » répond-il avec un sourire, avant de se remettre au travail, laissant résonner à nouveau le son de son marteau contre les tuiles.
-
+&gt;[[Me diriger vers le toitier-&gt;toitier]]
+&gt;[[Essayer de parler à l&#39;enfant-&gt;Enfant content]]
 &gt;[[Poursuivre ma visite de Solelhaven-&gt;Solelhaven]] 
 &gt;[[Aller à Verdegrove-&gt;Verdegrove]] 
-&gt;[[Vous pouvez toujours tirer une carte pour inspirer votre journée-&gt;Tirage]]</tw-passagedata><tw-passagedata pid="63" name="Taverne Solelhaven" tags="Temporaire" position="475,2400" size="100,100">_Solelhaven: true
+&gt;[[Vous pouvez toujours tirer une carte pour inspirer votre journée-&gt;Tirage]]
+</tw-passagedata><tw-passagedata pid="63" name="Taverne Solelhaven" tags="Temporaire" position="450,2400" size="100,100">_Solelhaven: true
 _PassageAvantTirage: passage.name
 _Mauvais: false
 _Bien: false
 _Moyen: false
 --
 {embed image: &#39;./assets/taverne_solelhaven.webp&#39;}
-Poussé par la curiosité et la fatigue d&#39;un long voyage, je franchis le seuil d&#39;une taverne à Solelhaven, la lumière dorée s&#39;échappant des fenêtres promettant chaleur et réconfort. Les murs de pierre, imprégnés de l&#39;odeur du bois verni et de la bière, racontent des histoires de générations de voyageurs et d&#39;habitants se mêlant sous son toit accueillant. Le brouhaha des conversations s&#39;entremêle aux rires chaleureux, créant une mélodie familière, presque aussi réconfortante que la musique elle-même.
+Poussé par la curiosité et la fatigue d&#39;un long voyage, je franchis le seuil d&#39;une taverne, la lumière dorée s&#39;échappant des fenêtres promettant chaleur et réconfort. Les murs de pierre, imprégnés de l&#39;odeur du bois verni et de la bière, racontent des histoires de générations de voyageurs et d&#39;habitants se mêlant sous son toit accueillant. Le brouhaha des conversations s&#39;entremêle aux rires chaleureux, créant une mélodie familière, presque aussi réconfortante que la musique elle-même.
 
 La salle principale, baignée d&#39;une lumière tamisée par des lanternes suspendues, est peuplée d&#39;une foule hétéroclite : des marchands partageant des histoires de routes périlleuses, des aventuriers aux armures éraflées débattant de leurs prochaines quêtes, et des locaux, accoudés au bar, échangeant les dernières nouvelles. Je m&#39;approche du comptoir, où un aubergiste au sourire facile me salue comme un vieil ami, me proposant une chope de leur meilleure bière artisanale.
 
@@ -926,7 +900,7 @@ Enfin, alors que la nuit enveloppe totalement le sentier, je tombe sur une clair
 [Else]
 &gt;[[Poursuivre ma route-&gt;Cueilleur de silence]]</tw-passagedata><tw-passagedata pid="70" name="Le concours impromptu de pêche" tags="" position="1375,1375" size="100,100">{embed image: &#39;./assets/peche.webp&#39;}
 
-Alors que je m&#39;arrête pour reposer mes pieds sur les rives accueillantes du fleuve, je suis accosté par un groupe d&#39;enfants du village voisin, qui me défient dans un concours amical de pêche. &quot;Celui qui attrape le plus gros poisson gagne !&quot; lancent-ils avec enthousiasme. Ce moment de légèreté, rythmé par les rires et les éclaboussures, me rappelle que l&#39;aventure se trouve aussi dans les joies simples partagées au bord de l&#39;eau.
+Alors que je m&#39;arrête pour reposer mes pieds sur les rives accueillantes du fleuve, je suis accosté par un groupe d&#39;enfants du village voisin, qui me défient dans un concours amical de pêche. *&quot;Celui qui attrape le plus gros poisson gagne !&quot;* lancent-ils avec enthousiasme. Ce moment de légèreté, rythmé par les rires et les éclaboussures, me rappelle que l&#39;aventure se trouve aussi dans les joies simples partagées au bord de l&#39;eau.
 
 &gt;[[Poursuivre ma route-&gt;Voyage tranquille rivière]]</tw-passagedata><tw-passagedata pid="71" name="La traversée des nénuphars" tags="" position="1525,1375" size="100,100">{embed image: &#39;./assets/Nenuphar.webp&#39;}
 
@@ -938,7 +912,7 @@ _ValDoria: _ValDoria +1
 [if _Paragraphe === 1]
 Le long du Fleuve d&#39;Émeraude, mon voyage se poursuit dans une tranquillité presque irréelle. Chaque courbe du fleuve révèle un nouveau panorama, une toile vivante où l&#39;eau danse avec la lumière, créant des reflets d&#39;émeraude qui semblent porter en eux les secrets de Val-d&#39;Oria.
 
-Alors que mes pas suivent le rythme doux des flots, mon esprit vagabonde librement. &quot;Quelles histoires ce fleuve pourrait-il raconter ?&quot; je me demande. Des générations de rires et de larmes, de découvertes et de pertes, ont dû se succéder sur ses rives.
+Alors que mes pas suivent le rythme doux des flots, mon esprit vagabonde librement. *&quot;Quelles histoires ce fleuve pourrait-il raconter ?&quot;* je me demande. Des générations de rires et de larmes, de découvertes et de pertes, ont dû se succéder sur ses rives.
 
 Les rencontres sont rares et précieuses. Un pêcheur qui partage sa prise du jour, un sourire complice échangé avec un passant, un oiseau qui semble me guider un instant avant de disparaître dans le feuillage... Chaque interaction est une fenêtre sur la vie le long du Fleuve d&#39;Émeraude, une leçon de simplicité et de connexion.
 
@@ -946,11 +920,10 @@ Le murmure constant de l&#39;eau devient une méditation, un rappel que, dans le
 
 Alors que Solelhaven se dessine enfin à l&#39;horizon, je me sens changé, comme si le fleuve avait lavé certaines de mes incertitudes, me laissant prêt à embrasser les mystères et les merveilles qui m&#39;attendent.
 &gt;[[Poursuivre vers Solelhaven-&gt;Solelhaven]]
-
 [if _Paragraphe === 2]
 Le long du Fleuve d&#39;Émeraude, mon chemin se déroule sans encombre, dans un silence peuplé seulement par le murmure constant de l&#39;eau contre les rives. Cette mélodie aquatique devient le fond sonore de mes pensées, m&#39;invitant à la contemplation, à un voyage intérieur parallèle à mon périple physique.
 
-La lumière du soleil se fracture en milliers d&#39;éclats sur la surface du fleuve, chaque reflet une promesse, une possibilité. &quot;Qu&#39;est-ce que la vie, sinon un fleuve ?&quot; je médite, laissant mes pensées flotter au gré des courants, parfois rapides, parfois paisibles, mais toujours en mouvement.
+La lumière du soleil se fracture en milliers d&#39;éclats sur la surface du fleuve, chaque reflet une promesse, une possibilité. *&quot;Qu&#39;est-ce que la vie, sinon un fleuve ?&quot;* je médite, laissant mes pensées flotter au gré des courants, parfois rapides, parfois paisibles, mais toujours en mouvement.
 
 À mesure que j&#39;avance, la rive offre des rencontres sporadiques avec la faune locale : un héron majestueux, scrutant les eaux peu profondes à la recherche de son prochain repas, des poissons qui dessinent des arabesques invisibles sous l&#39;eau claire, une famille de loutres s&#39;adonnant à leurs jeux espiègles. Chaque observation est un rappel de l&#39;interdépendance de toutes choses, de la danse délicate de la vie qui se joue en chaque instant.
 
@@ -962,7 +935,7 @@ Ce voyage le long du Fleuve d&#39;Émeraude, dépourvu de péripéties mais rich
 [if _Paragraphe === 3]
 Le long du Fleuve d&#39;Émeraude, mon voyage se poursuit dans une quiétude inattendue. L&#39;eau murmure des histoires anciennes, des légendes qui s&#39;infiltrent dans mes pensées au rythme de mes pas. Ce sentier, bordé d&#39;arbres majestueux dont les feuilles filtrent la lumière du soleil, crée un kaléidoscope de verts scintillants, une toile vivante qui invite à la contemplation.
 
-&quot;Quels secrets cache le fleuve dans ses profondeurs ?&quot; je me demande, alors que mes réflexions dérivent au gré du courant. Chaque oiseau qui s&#39;envole, chaque bruissement dans les buissons semble être un signe, un guide sur ce chemin de découverte intérieure.
+*&quot;Quels secrets cache le fleuve dans ses profondeurs ?&quot;* je me demande, alors que mes réflexions dérivent au gré du courant. Chaque oiseau qui s&#39;envole, chaque bruissement dans les buissons semble être un signe, un guide sur ce chemin de découverte intérieure.
 
 Sans péripéties pour troubler ma marche, je trouve une paix surprenante dans la répétition des jours, chaque lever et coucher de soleil marquant le rythme de mon existence éphémère à côté de ce fleuve éternel. Les rencontres fortuites avec les habitants des berges, des pêcheurs aux sourires tranquilles, des marchands ambulants porteurs d&#39;histoires et d&#39;objets exotiques, enrichissent mon parcours de fragments de vies entrelacées.
 
@@ -972,7 +945,7 @@ Ce voyage, initialement entrepris dans un but précis, devient une exploration d
 [if _Paragraphe === 4]
 Le murmure incessant du Fleuve d&#39;Émeraude devient mon compagnon de route, guide fidèle à travers les méandres de mes propres pensées. Chaque reflet sur l&#39;eau, chaque frémissement de l&#39;onde sous le vent est une invitation à la contemplation, un rappel que, même en l&#39;absence de péripéties extraordinaires, le voyage lui-même est une découverte.
 
-Je laisse mon esprit vagabonder au fil de l&#39;eau, naviguant entre souvenirs et aspirations futures, trouvant dans le flux du fleuve une métaphore de ma propre quête. &quot;Qu&#39;est-ce que je cherche réellement ?&quot; La question, portée par le courant, semble moins pressante ici, diluée dans l&#39;immensité tranquille du paysage.
+Je laisse mon esprit vagabonder au fil de l&#39;eau, naviguant entre souvenirs et aspirations futures, trouvant dans le flux du fleuve une métaphore de ma propre quête. *&quot;Qu&#39;est-ce que je cherche réellement ?&quot;* La question, portée par le courant, semble moins pressante ici, diluée dans l&#39;immensité tranquille du paysage.
 
 Par moments, des pêcheurs, silhouettes solitaires au bord de l&#39;eau, échangent avec moi des regards, des sourires, voire quelques mots - des échanges éphémères, mais chargés de cette humanité partagée qui tisse le véritable tissu des Terres d&#39;Echo. Chaque rencontre, aussi brève soit-elle, est un fil d&#39;or ajouté à la trame de mon voyage.
 
@@ -980,15 +953,30 @@ Et alors que le sentier s&#39;éloigne parfois du fleuve pour s&#39;enfoncer dan
 
 Ainsi, le voyage se poursuit, non pas comme une suite d&#39;événements marquants, mais comme une immersion douce dans le flux de la vie, une traversée qui, sans que je m&#39;en aperçoive, me rapproche un peu plus de moi-même, et de la réponse qui m&#39;attend, quelque part, au bout du chemin.
 
-&gt;[[Poursuivre vers Solelhaven-&gt;Solelhaven]] 	</tw-passagedata><tw-passagedata pid="73" name="La rencontre avec Elda la Verte Main à Verdegrove" tags="" position="1825,1550" size="100,100">_Elda:true
+&gt;[[Poursuivre vers Solelhaven-&gt;Solelhaven]] 
+[if _Verdegrove]
+&gt;[[Me rendre à Verdegrove-&gt;Verdegrove]] 
+[if !_Verdegrove]
+&gt;[[Me diriger vers le village que j&#39;aperçois au loins-&gt;Verdegrove]] </tw-passagedata><tw-passagedata pid="73" name="La rencontre avec Elda la Verte Main à Verdegrove" tags="" position="1825,1550" size="100,100">_Elda:true
+_Fragment:_Fragment+1
 --
+{embed image: &#39;./assets/elda.webp&#39;}
+En franchissant les portes de Verdegrove, je sens immédiatement la différence. L&#39;air est chargé d&#39;un parfum riche et terreux, une odeur de vie qui semble imprégner chaque souffle. Les jardins s&#39;étendent devant moi, un tableau vivant de verdure et de couleurs, où chaque plante et chaque arbre semble raconter sa propre histoire.
+
+Je me laisse guider par la curiosité, mes pas me menant à travers ce labyrinthe de nature cultivée, jusqu&#39;à ce que je la rencontre : Elda, la Verte Main. Elle est là, au milieu d&#39;un champ, ses mains plongées dans la terre, comme si elle conversait silencieusement avec la nature elle-même. Son regard, lorsqu&#39;elle se tourne vers moi, est empreint d&#39;une sagesse profonde, d&#39;une connexion ancienne avec la terre qui l&#39;entoure.
+
+*&quot;Bienvenue à Verdegrove, voyageur, &quot;* commence-t-elle, sa voix douce mais ferme. *&quot; Je suis Elda. Je vois dans tes yeux l&#39;éclat de la curiosité. Que cherches-tu ici ? &quot;*
+
+&gt;[[Je lui explique mon voyage, ma quête d&#39;expériences et de savoirs-&gt;ma quête]]
+&gt;[[Je lui parle des vins de Verdegrove dont on m&#39;a tant vanté les mérites-&gt;vin]]
+&gt;[[Je préfère repdrendre ma route-&gt;Voyage tranquille rivière]]</tw-passagedata><tw-passagedata pid="74" name="Verdegrove" tags="" position="1675,1375" size="100,100">_Verdegrove:true
+--
+{embed image: &#39;./assets/verdegrove.webp&#39;}
 À l&#39;orée de Verdegrove, l&#39;air vibre d&#39;une énergie palpable, nourrie par la sagesse des anciens et la vitalité du Fleuve d&#39;Émeraude qui borde ce sanctuaire de savoir et de guérison. Les jardins botaniques déploient leurs merveilles en une symphonie de couleurs et de parfums, tandis que les académies de magie naturelle résonnent des incantations et des murmures des apprentis druides.
 
-&gt;[[Poursuivre ma route-&gt;Voyage tranquille rivière]]</tw-passagedata><tw-passagedata pid="74" name="Verdegrove" tags="" position="1675,1375" size="100,100">_Verdegrove:true
---
-À l&#39;orée de Verdegrove, l&#39;air vibre d&#39;une énergie palpable, nourrie par la sagesse des anciens et la vitalité du Fleuve d&#39;Émeraude qui borde ce sanctuaire de savoir et de guérison. Les jardins botaniques déploient leurs merveilles en une symphonie de couleurs et de parfums, tandis que les académies de magie naturelle résonnent des incantations et des murmures des apprentis druides.
-
-&gt;[[Poursuivre ma route-&gt;Voyage tranquille rivière]]</tw-passagedata><tw-passagedata pid="75" name="Cueilleur de silence" tags="" position="1000,1725" size="100,100">_Silence:true
+&gt;[[Poursuivre ma route vers Solelhaven-&gt;Voyage tranquille rivière]]
+&gt;[[Revenir à la croisée des chemins-&gt;mapp]] 
+&gt;[[Explorer les jardin de Verdegrove-&gt;La rencontre avec Elda la Verte Main à Verdegrove]] </tw-passagedata><tw-passagedata pid="75" name="Cueilleur de silence" tags="" position="1000,1725" size="100,100">_Silence:true
 --
 {embed image: &#39;./assets/Ceuilleur.webp&#39;}
 
@@ -1032,6 +1020,7 @@ Je tiens la nouvelle bulle avec un respect renouvelé, conscient du privilège q
 Je remercie le Cueilleur, les mots semblant superflus dans la communion partagée du moment. Alors que je reprends mon chemin, la bulle précieusement serrée contre moi, je sens que quelque chose a changé. Ce n&#39;est pas seulement le poids de la sphère que je porte, mais la résonance d&#39;un calme intérieur, un souvenir silencieux que même l&#39;échec ne peut altérer.
 
 &gt;[[Poursuivre ma route-&gt;Voyage tranquille]]</tw-passagedata><tw-passagedata pid="77" name="Harmonia" tags="" position="1300,2600" size="100,100">_FinHarmonia:true
+_Fin:3
 --
 {embed image: &#39;./assets/Harmonia.webp&#39;}
 Après plusieurs jours de marche à travers les vallées changeantes de Val-d&#39;Oria, où les sentiers semblent se jouer de moi et les bois chuchotent de vieux secrets, je me trouve enfin aux portes d&#39;Harmonia. Une mélodie, douce et enveloppante, m&#39;accueille, émergeant du cœur même de la terre, comme pour apaiser les fatigues de mon périple. Il y a quelque chose de magique dans cette transition, comme si je passais d&#39;un monde à l&#39;autre, du silence de ma solitude à l&#39;harmonie d&#39;une cité vivante.
@@ -1043,23 +1032,33 @@ Le chemin jusqu&#39;ici n&#39;a pas été de tout repos. J&#39;ai croisé une ca
 &gt;[[J&#39;ai enfin l&#39;impression d&#39;être chez moi et je souhaite m&#39;installer ici-&gt;embrasser l&#39;oubli]] </tw-passagedata><tw-passagedata pid="78" name="Bibliothèque de Solelhaven" tags="" position="1100,2600" size="100,100">_livreBibliSolelhaven:random.d4
 --
 [if _livreBibliSolelhaven===1]
-Au détour d&#39;une étagère je tombe sur un ouvrage relié de cuir vert. &quot;Les Chants de l&#39;Éther&quot;,en le feuilletant je découvre une collection de poèmes écrits dans une langue ancienne. Qu&#39;elle dommage qu&#39;elle n&#39;évoque rien pour moi.
+{embed image: &#39;./assets/chantdether.webp&#39;}
+Au détour d&#39;une étagère je tombe sur un ouvrage relié de cuir vert. &quot;Les Chants de l&#39;Éther&quot;,en le feuilletant je découvre une collection de poèmes écrits dans une langue ancienne. Quel dommage qu&#39;elle n&#39;évoque rien pour moi.
+
 &gt;[[Explorer les rayons de la bibliothèque-&gt;Bibliothèque de Solelhaven]] 
 &gt;[[Poursuivre ma visite de Solelhaven-&gt;Solelhaven]] 
 [if _livreBibliSolelhaven===2]
-A tiens, le &quot;Bestiaire des Terres d&#39;Echo&quot; : Un volume illustré présentant les créatures les plus étranges et merveilleuses de Val-d&#39;Oria, certaines bienveillantes, d&#39;autres terrifiantes. 
+{embed image: &#39;./assets/bestiaire.webp&#39;}
+Tiens, le &quot;Bestiaire des Terres d&#39;Echo&quot; : Un volume illustré présentant les créatures les plus étranges et merveilleuses de Val-d&#39;Oria, certaines bienveillantes, d&#39;autres terrifiantes. 
+
 &gt;[[Explorer les rayons de la bibliothèque-&gt;Bibliothèque de Solelhaven]] 
 &gt;[[Poursuivre ma visite de Solelhaven-&gt;Solelhaven]] 
 [if _livreBibliSolelhaven===3 &amp;&amp; _Verdegrove]
+{embed image: &#39;./assets/floramagique.webp&#39;}
 &quot;Les Jardins de Verdegrove : Un Guide de la Flora Magique&quot;. Le livre est magnifique. Il détaille les propriétés et les pouvoirs des plantes trouvées dans les jardins botaniques de Verdegrove. Il ne me reste plus qu&#39;à y retourner pour en mettre à profit ce savoir !
+
 &gt;[[Explorer les rayons de la bibliothèque-&gt;Bibliothèque de Solelhaven]] 
 &gt;[[Poursuivre ma visite de Solelhaven-&gt;Solelhaven]] 
 [if _livreBibliSolelhaven===3 &amp;&amp; !_Verdegrove]
+{embed image: &#39;./assets/floramagique.webp&#39;}
 &quot;Les Jardins de Verdegrove : Un Guide de la Flora Magique&quot;. Le livre est magnifique. Il détaille les propriétés et les pouvoirs des plantes trouvées dans les jardins botaniques de Verdegrove. *&quot;Verdegrove ? il faudra que je me renseigne pour savoir ou cela se trouve !&quot;*
+
 &gt;[[Explorer les rayons de la bibliothèque-&gt;Bibliothèque de Solelhaven]] 
 &gt;[[Poursuivre ma visite de Solelhaven-&gt;Solelhaven]] 
 [if _livreBibliSolelhaven===4]
+{embed image: &#39;./assets/royaumesoublies.webp&#39;}
 &quot;Chroniques des Royaumes Oubliés&quot;, il semblerait qu&#39;il existe à Val-d&#39;Oria des civilisations disparues  offrant des indices sur les mystères non résolus du monde.
+
 &gt;[[Explorer les rayons de la bibliothèque-&gt;Bibliothèque de Solelhaven]] 
 &gt;[[Poursuivre ma visite de Solelhaven-&gt;Solelhaven]] </tw-passagedata><tw-passagedata pid="79" name="FinSculpteur" tags="" position="600,2525" size="100,100">Au moment de quitter la boutique, le sculpteur me lance, d&#39;une voix chargée d&#39;une étrange résonance, une phrase qui semble flotter dans l&#39;air bien après qu&#39;il l&#39;ait prononcée : *&quot;Là où le vent murmure les secrets les plus anciens, Eol Grisebrume t&#39;attend.&quot;* Ces mots s&#39;insinuent en moi comme une clef cherchant sa serrure, réveillant un appel que je ne peux ignorer.
 
@@ -1068,6 +1067,7 @@ Cette mention d&#39;Eol ne peut être une coïncidence. Elle évoque en moi un s
 Sans un regard en arrière, je quitte la chaleur de la boutique pour me lancer dans le vent, vers un avenir incertain. Les mots du sculpteur, tels des fantômes de mon passé, m&#39;accompagnent, me poussant vers les terres inconnues à la recherche d&#39;Eol Grisebrume. C&#39;est une quête non seulement vers un guide spirituel mais aussi vers une réconciliation avec mon héritage de silouhétien, là où les frontières entre le monde physique et celui des esprits s&#39;estompent dans le souffle du vent.
 
 &gt;[[Poursuivre ma visite de Solelhaven-&gt;Solelhaven]] 
+&gt;[[Me rendre dans les Terres Frontalières-&gt;les Terres Frontalières.]] 
 &gt;[[Vous pouvez toujours tirer une carte pour inspirer votre journée-&gt;Tirage]]</tw-passagedata><tw-passagedata pid="80" name="Port-Cendre" tags="" position="4325,325" size="100,100">Port-Cendre, la plus grande cité-port, est un carrefour d&#39;aventures et de mystères où le parfum salé de la mer se mêle aux épices rares du marché flottant. Imaginez des navires aux voiles écarlates et indigo, des marins aux visages burinés par le sel et le soleil, partageant des histoires de terres lointaines. Le marché flottant, un labyrinthe de barques et de pontons, est un théâtre vivant où chaque marchand est un acteur, chaque produit un trésor. C&#39;est ici que les cartes des nouveaux mondes se dessinent, entre un verre de rhum épicé et les promesses chuchotées d&#39;îles encore inconnues.
 
 &gt;[[La croisée des chemins-&gt;mapp]]
@@ -1116,7 +1116,73 @@ Sans un regard en arrière, je quitte la chaleur de la boutique pour me lancer d
 
 &gt;[[La croisée des chemins-&gt;mapp]]
 &gt;[[Voguer vers Islevoile-&gt;Islevoile]]
-</tw-passagedata></tw-storydata><script>!function(){"use strict";var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{};function t(e){if(e.__esModule)return e;var t=Object.defineProperty({},"__esModule",{value:!0});return Object.keys(e).forEach((function(n){var r=Object.getOwnPropertyDescriptor(e,n);Object.defineProperty(t,n,r.get?r:{enumerable:!0,get:function(){return e[n]}})})),t}var n="undefined"!=typeof global?global:"undefined"!=typeof self?self:"undefined"!=typeof window?window:{};function r(){throw new Error("setTimeout has not been defined")}function o(){throw new Error("clearTimeout has not been defined")}var i=r,a=o;function s(e){if(i===setTimeout)return setTimeout(e,0);if((i===r||!i)&&setTimeout)return i=setTimeout,setTimeout(e,0);try{return i(e,0)}catch(t){try{return i.call(null,e,0)}catch(t){return i.call(this,e,0)}}}"function"==typeof n.setTimeout&&(i=setTimeout),"function"==typeof n.clearTimeout&&(a=clearTimeout);var c,l=[],u=!1,f=-1;function p(){u&&c&&(u=!1,c.length?l=c.concat(l):f=-1,l.length&&d())}function d(){if(!u){var e=s(p);u=!0;for(var t=l.length;t;){for(c=l,l=[];++f<t;)c&&c[f].run();f=-1,t=l.length}c=null,u=!1,function(e){if(a===clearTimeout)return clearTimeout(e);if((a===o||!a)&&clearTimeout)return a=clearTimeout,clearTimeout(e);try{a(e)}catch(t){try{return a.call(null,e)}catch(t){return a.call(this,e)}}}(e)}}function h(e,t){this.fun=e,this.array=t}h.prototype.run=function(){this.fun.apply(null,this.array)};function g(){}var m=g,b=g,v=g,y=g,w=g,k=g,x=g;var S=n.performance||{},_=S.now||S.mozNow||S.msNow||S.oNow||S.webkitNow||function(){return(new Date).getTime()};var E=new Date;var C={nextTick:function(e){var t=new Array(arguments.length-1);if(arguments.length>1)for(var n=1;n<arguments.length;n++)t[n-1]=arguments[n];l.push(new h(e,t)),1!==l.length||u||s(d)},title:"browser",browser:!0,env:{},argv:[],version:"",versions:{},on:m,addListener:b,once:v,off:y,removeListener:w,removeAllListeners:k,emit:x,binding:function(e){throw new Error("process.binding is not supported")},cwd:function(){return"/"},chdir:function(e){throw new Error("process.chdir is not supported")},umask:function(){return 0},hrtime:function(e){var t=.001*_.call(S),n=Math.floor(t),r=Math.floor(t%1*1e9);return e&&(n-=e[0],(r-=e[1])<0&&(n--,r+=1e9)),[n,r]},platform:"browser",release:{},config:{},uptime:function(){return(new Date-E)/1e3}};function A(e){return null!=e&&(!!e._isBuffer||O(e)||function(e){return"function"==typeof e.readFloatLE&&"function"==typeof e.slice&&O(e.slice(0,0))}(e))}function O(e){return!!e.constructor&&"function"==typeof e.constructor.isBuffer&&e.constructor.isBuffer(e)}void 0===n.TYPED_ARRAY_SUPPORT||n.TYPED_ARRAY_SUPPORT;var T="function"==typeof Object.create?function(e,t){e.super_=t,e.prototype=Object.create(t.prototype,{constructor:{value:e,enumerable:!1,writable:!0,configurable:!0}})}:function(e,t){e.super_=t;var n=function(){};n.prototype=t.prototype,e.prototype=new n,e.prototype.constructor=e};function j(e,t){var n={seen:[],stylize:L};return arguments.length>=3&&(n.depth=arguments[2]),arguments.length>=4&&(n.colors=arguments[3]),D(t)?n.showHidden=t:t&&J(n,t),R(n.showHidden)&&(n.showHidden=!1),R(n.depth)&&(n.depth=2),R(n.colors)&&(n.colors=!1),R(n.customInspect)&&(n.customInspect=!0),n.colors&&(n.stylize=z),N(n,e,n.depth)}function z(e,t){var n=j.styles[t];return n?"["+j.colors[n][0]+"m"+e+"["+j.colors[n][1]+"m":e}function L(e,t){return e}function N(e,t,n){if(e.customInspect&&t&&H(t.inspect)&&t.inspect!==j&&(!t.constructor||t.constructor.prototype!==t)){var r=t.inspect(n,e);return q(r)||(r=N(e,r,n)),r}var o=function(e,t){if(R(t))return e.stylize("undefined","undefined");if(q(t)){var n="'"+JSON.stringify(t).replace(/^"|"$/g,"").replace(/'/g,"\\'").replace(/\\"/g,'"')+"'";return e.stylize(n,"string")}if(r=t,"number"==typeof r)return e.stylize(""+t,"number");var r;if(D(t))return e.stylize(""+t,"boolean");if(P(t))return e.stylize("null","null")}(e,t);if(o)return o;var i=Object.keys(t),a=function(e){var t={};return e.forEach((function(e,n){t[e]=!0})),t}(i);if(e.showHidden&&(i=Object.getOwnPropertyNames(t)),U(t)&&(i.indexOf("message")>=0||i.indexOf("description")>=0))return $(t);if(0===i.length){if(H(t)){var s=t.name?": "+t.name:"";return e.stylize("[Function"+s+"]","special")}if(M(t))return e.stylize(RegExp.prototype.toString.call(t),"regexp");if(B(t))return e.stylize(Date.prototype.toString.call(t),"date");if(U(t))return $(t)}var c,l,u="",f=!1,p=["{","}"];(c=t,Array.isArray(c)&&(f=!0,p=["[","]"]),H(t))&&(u=" [Function"+(t.name?": "+t.name:"")+"]");return M(t)&&(u=" "+RegExp.prototype.toString.call(t)),B(t)&&(u=" "+Date.prototype.toUTCString.call(t)),U(t)&&(u=" "+$(t)),0!==i.length||f&&0!=t.length?n<0?M(t)?e.stylize(RegExp.prototype.toString.call(t),"regexp"):e.stylize("[Object]","special"):(e.seen.push(t),l=f?function(e,t,n,r,o){for(var i=[],a=0,s=t.length;a<s;++a)G(t,String(a))?i.push(I(e,t,n,r,String(a),!0)):i.push("");return o.forEach((function(o){o.match(/^\d+$/)||i.push(I(e,t,n,r,o,!0))})),i}(e,t,n,a,i):i.map((function(r){return I(e,t,n,a,r,f)})),e.seen.pop(),function(e,t,n){if(e.reduce((function(e,t){return t.indexOf("\n"),e+t.replace(/\u001b\[\d\d?m/g,"").length+1}),0)>60)return n[0]+(""===t?"":t+"\n ")+" "+e.join(",\n  ")+" "+n[1];return n[0]+t+" "+e.join(", ")+" "+n[1]}(l,u,p)):p[0]+u+p[1]}function $(e){return"["+Error.prototype.toString.call(e)+"]"}function I(e,t,n,r,o,i){var a,s,c;if((c=Object.getOwnPropertyDescriptor(t,o)||{value:t[o]}).get?s=c.set?e.stylize("[Getter/Setter]","special"):e.stylize("[Getter]","special"):c.set&&(s=e.stylize("[Setter]","special")),G(r,o)||(a="["+o+"]"),s||(e.seen.indexOf(c.value)<0?(s=P(n)?N(e,c.value,null):N(e,c.value,n-1)).indexOf("\n")>-1&&(s=i?s.split("\n").map((function(e){return"  "+e})).join("\n").substr(2):"\n"+s.split("\n").map((function(e){return"   "+e})).join("\n")):s=e.stylize("[Circular]","special")),R(a)){if(i&&o.match(/^\d+$/))return s;(a=JSON.stringify(""+o)).match(/^"([a-zA-Z_][a-zA-Z_0-9]*)"$/)?(a=a.substr(1,a.length-2),a=e.stylize(a,"name")):(a=a.replace(/'/g,"\\'").replace(/\\"/g,'"').replace(/(^"|"$)/g,"'"),a=e.stylize(a,"string"))}return a+": "+s}function D(e){return"boolean"==typeof e}function P(e){return null===e}function q(e){return"string"==typeof e}function R(e){return void 0===e}function M(e){return F(e)&&"[object RegExp]"===W(e)}function F(e){return"object"==typeof e&&null!==e}function B(e){return F(e)&&"[object Date]"===W(e)}function U(e){return F(e)&&("[object Error]"===W(e)||e instanceof Error)}function H(e){return"function"==typeof e}function Z(e){return null===e||"boolean"==typeof e||"number"==typeof e||"string"==typeof e||"symbol"==typeof e||void 0===e}function W(e){return Object.prototype.toString.call(e)}function J(e,t){if(!t||!F(t))return e;for(var n=Object.keys(t),r=n.length;r--;)e[n[r]]=t[n[r]];return e}function G(e,t){return Object.prototype.hasOwnProperty.call(e,t)}function V(e,t){if(e===t)return 0;for(var n=e.length,r=t.length,o=0,i=Math.min(n,r);o<i;++o)if(e[o]!==t[o]){n=e[o],r=t[o];break}return n<r?-1:r<n?1:0}j.colors={bold:[1,22],italic:[3,23],underline:[4,24],inverse:[7,27],white:[37,39],grey:[90,39],black:[30,39],blue:[34,39],cyan:[36,39],green:[32,39],magenta:[35,39],red:[31,39],yellow:[33,39]},j.styles={special:"cyan",number:"yellow",boolean:"yellow",undefined:"grey",null:"bold",string:"green",date:"magenta",regexp:"red"};var Y,X=Object.prototype.hasOwnProperty,K=Object.keys||function(e){var t=[];for(var n in e)X.call(e,n)&&t.push(n);return t},Q=Array.prototype.slice;function ee(){return void 0!==Y?Y:Y="foo"===function(){}.name}function te(e){return Object.prototype.toString.call(e)}function ne(e){return!A(e)&&("function"==typeof n.ArrayBuffer&&("function"==typeof ArrayBuffer.isView?ArrayBuffer.isView(e):!!e&&(e instanceof DataView||!!(e.buffer&&e.buffer instanceof ArrayBuffer))))}function re(e,t){e||le(e,!0,t,"==",ue)}var oe=/\s*function\s+([^\(\s]*)\s*/;function ie(e){if(H(e)){if(ee())return e.name;var t=e.toString().match(oe);return t&&t[1]}}function ae(e){this.name="AssertionError",this.actual=e.actual,this.expected=e.expected,this.operator=e.operator,e.message?(this.message=e.message,this.generatedMessage=!1):(this.message=function(e){return se(ce(e.actual),128)+" "+e.operator+" "+se(ce(e.expected),128)}(this),this.generatedMessage=!0);var t=e.stackStartFunction||le;if(Error.captureStackTrace)Error.captureStackTrace(this,t);else{var n=new Error;if(n.stack){var r=n.stack,o=ie(t),i=r.indexOf("\n"+o);if(i>=0){var a=r.indexOf("\n",i+1);r=r.substring(a+1)}this.stack=r}}}function se(e,t){return"string"==typeof e?e.length<t?e:e.slice(0,t):e}function ce(e){if(ee()||!H(e))return j(e);var t=ie(e);return"[Function"+(t?": "+t:"")+"]"}function le(e,t,n,r,o){throw new ae({message:n,actual:e,expected:t,operator:r,stackStartFunction:o})}function ue(e,t){e||le(e,!0,t,"==",ue)}function fe(e,t,n){e!=t&&le(e,t,n,"==",fe)}function pe(e,t,n){e==t&&le(e,t,n,"!=",pe)}function de(e,t,n){ge(e,t,!1)||le(e,t,n,"deepEqual",de)}function he(e,t,n){ge(e,t,!0)||le(e,t,n,"deepStrictEqual",he)}function ge(e,t,n,r){if(e===t)return!0;if(A(e)&&A(t))return 0===V(e,t);if(B(e)&&B(t))return e.getTime()===t.getTime();if(M(e)&&M(t))return e.source===t.source&&e.global===t.global&&e.multiline===t.multiline&&e.lastIndex===t.lastIndex&&e.ignoreCase===t.ignoreCase;if(null!==e&&"object"==typeof e||null!==t&&"object"==typeof t){if(ne(e)&&ne(t)&&te(e)===te(t)&&!(e instanceof Float32Array||e instanceof Float64Array))return 0===V(new Uint8Array(e.buffer),new Uint8Array(t.buffer));if(A(e)!==A(t))return!1;var o=(r=r||{actual:[],expected:[]}).actual.indexOf(e);return-1!==o&&o===r.expected.indexOf(t)||(r.actual.push(e),r.expected.push(t),function(e,t,n,r){if(null==e||null==t)return!1;if(Z(e)||Z(t))return e===t;if(n&&Object.getPrototypeOf(e)!==Object.getPrototypeOf(t))return!1;var o=me(e),i=me(t);if(o&&!i||!o&&i)return!1;if(o)return ge(e=Q.call(e),t=Q.call(t),n);var a,s,c=K(e),l=K(t);if(c.length!==l.length)return!1;for(c.sort(),l.sort(),s=c.length-1;s>=0;s--)if(c[s]!==l[s])return!1;for(s=c.length-1;s>=0;s--)if(!ge(e[a=c[s]],t[a],n,r))return!1;return!0}(e,t,n,r))}return n?e===t:e==t}function me(e){return"[object Arguments]"==Object.prototype.toString.call(e)}function be(e,t,n){ge(e,t,!1)&&le(e,t,n,"notDeepEqual",be)}function ve(e,t,n){ge(e,t,!0)&&le(e,t,n,"notDeepStrictEqual",ve)}function ye(e,t,n){e!==t&&le(e,t,n,"===",ye)}function we(e,t,n){e===t&&le(e,t,n,"!==",we)}function ke(e,t){if(!e||!t)return!1;if("[object RegExp]"==Object.prototype.toString.call(t))return t.test(e);try{if(e instanceof t)return!0}catch(e){}return!Error.isPrototypeOf(t)&&!0===t.call({},e)}function xe(e,t,n,r){var o;if("function"!=typeof t)throw new TypeError('"block" argument must be a function');"string"==typeof n&&(r=n,n=null),o=function(e){var t;try{e()}catch(e){t=e}return t}(t),r=(n&&n.name?" ("+n.name+").":".")+(r?" "+r:"."),e&&!o&&le(o,n,"Missing expected exception"+r);var i="string"==typeof r,a=!e&&o&&!n;if((!e&&U(o)&&i&&ke(o,n)||a)&&le(o,n,"Got unwanted exception"+r),e&&o&&n&&!ke(o,n)||!e&&o)throw o}function Se(e,t,n){xe(!0,e,t,n)}function _e(e,t,n){xe(!1,e,t,n)}function Ee(e){if(e)throw e}re.AssertionError=ae,T(ae,Error),re.fail=le,re.ok=ue,re.equal=fe,re.notEqual=pe,re.deepEqual=de,re.deepStrictEqual=he,re.notDeepEqual=be,re.notDeepStrictEqual=ve,re.strictEqual=ye,re.notStrictEqual=we,re.throws=Se,re.doesNotThrow=_e,re.ifError=Ee;var Ce=t(Object.freeze({__proto__:null,default:re,AssertionError:ae,fail:le,ok:ue,assert:ue,equal:fe,notEqual:pe,deepEqual:de,deepStrictEqual:he,notDeepEqual:be,notDeepStrictEqual:ve,strictEqual:ye,notStrictEqual:we,throws:Se,doesNotThrow:_e,ifError:Ee})),Ae=Ce,Oe="undefined"!=typeof window;function Te(e){this.hasWindow=e,this.hasIdle=this.hasWindow&&window.requestIdleCallback,this.method=this.hasIdle?window.requestIdleCallback.bind(window):this.setTimeout,this.scheduled=!1,this.queue=[]}Te.prototype.push=function(e){Ae.equal(typeof e,"function","nanoscheduler.push: cb should be type function"),this.queue.push(e),this.schedule()},Te.prototype.schedule=function(){if(!this.scheduled){this.scheduled=!0;var e=this;this.method((function(t){for(;e.queue.length&&t.timeRemaining()>0;)e.queue.shift()(t);e.scheduled=!1,e.queue.length&&e.schedule()}))}},Te.prototype.setTimeout=function(e){setTimeout(e,0,{timeRemaining:function(){return 1}})};var je,ze=function(){var e;return Oe?(window._nanoScheduler||(window._nanoScheduler=new Te(!0)),e=window._nanoScheduler):e=new Te,e},Le=ze(),Ne=Ce;Ie.disabled=!0;try{je=window.performance,Ie.disabled="true"===window.localStorage.DISABLE_NANOTIMING||!je.mark}catch(e){}var $e=Ie;function Ie(e){if(Ne.equal(typeof e,"string","nanotiming: name should be type string"),Ie.disabled)return De;var t=(1e4*je.now()).toFixed()%Number.MAX_SAFE_INTEGER,n="start-"+t+"-"+e;function r(r){var o="end-"+t+"-"+e;je.mark(o),Le.push((function(){var i=null;try{var a=e+" ["+t+"]";je.measure(a,n,o),je.clearMarks(n),je.clearMarks(o)}catch(e){i=e}r&&r(i,e)}))}return je.mark(n),r.uuid=t,r}function De(e){e&&Le.push((function(){e(new Error("nanotiming: performance API unavailable"))}))}var Pe,qe=Ce;Re.disabled=!0;try{Pe=require("perf_hooks").performance,Re.disabled=C.env.DISABLE_NANOTIMING||!Pe.mark}catch(e){}function Re(e){if("undefined"!=typeof window)return $e(e);if(qe.equal(typeof e,"string","nanotiming: name should be type string"),Re.disabled)return Me;var t=(1e4*Pe.now()).toFixed()%Number.MAX_SAFE_INTEGER,n="start-"+t+"-"+e;function r(r){var o="end-"+t+"-"+e;Pe.mark(o);var i=null;try{var a=e+" ["+t+"]";Pe.measure(a,n,o),Pe.clearMarks(n),Pe.clearMarks(o)}catch(e){i=e}r&&r(i,e)}return Pe.mark(n),r.uuid=t,r}function Me(e){e&&e(new Error("nanotiming: performance API unavailable"))}var Fe=function(e,t,n){var r,o=e.length;if(!(t>=o||0===n)){var i=o-(n=t+n>o?o-t:n);for(r=t;r<i;++r)e[r]=e[r+n];e.length=i}},Be=Re,Ue=Ce,He=Ze;function Ze(e){if(!(this instanceof Ze))return new Ze(e);this._name=e||"nanobus",this._starListeners=[],this._listeners={}}Ze.prototype.emit=function(e){Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.emit: eventName should be type string or symbol");for(var t=[],n=1,r=arguments.length;n<r;n++)t.push(arguments[n]);var o=Be(this._name+"('"+e.toString()+"')"),i=this._listeners[e];return i&&i.length>0&&this._emit(this._listeners[e],t),this._starListeners.length>0&&this._emit(this._starListeners,e,t,o.uuid),o(),this},Ze.prototype.on=Ze.prototype.addListener=function(e,t){return Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.on: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.on: listener should be type function"),"*"===e?this._starListeners.push(t):(this._listeners[e]||(this._listeners[e]=[]),this._listeners[e].push(t)),this},Ze.prototype.prependListener=function(e,t){return Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.prependListener: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.prependListener: listener should be type function"),"*"===e?this._starListeners.unshift(t):(this._listeners[e]||(this._listeners[e]=[]),this._listeners[e].unshift(t)),this},Ze.prototype.once=function(e,t){Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.once: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.once: listener should be type function");var n=this;return this.on(e,(function r(){t.apply(n,arguments),n.removeListener(e,r)})),this},Ze.prototype.prependOnceListener=function(e,t){Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.prependOnceListener: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.prependOnceListener: listener should be type function");var n=this;return this.prependListener(e,(function r(){t.apply(n,arguments),n.removeListener(e,r)})),this},Ze.prototype.removeListener=function(e,t){return Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.removeListener: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.removeListener: listener should be type function"),"*"===e?(this._starListeners=this._starListeners.slice(),n(this._starListeners,t)):(void 0!==this._listeners[e]&&(this._listeners[e]=this._listeners[e].slice()),n(this._listeners[e],t));function n(e,t){if(e){var n=e.indexOf(t);return-1!==n?(Fe(e,n,1),!0):void 0}}},Ze.prototype.removeAllListeners=function(e){return e?"*"===e?this._starListeners=[]:this._listeners[e]=[]:(this._starListeners=[],this._listeners={}),this},Ze.prototype.listeners=function(e){var t="*"!==e?this._listeners[e]:this._starListeners,n=[];if(t)for(var r=t.length,o=0;o<r;o++)n.push(t[o]);return n},Ze.prototype._emit=function(e,t,n,r){if(void 0!==e&&0!==e.length){void 0===n&&(n=t,t=null),t&&(n=void 0!==r?[t].concat(n,r):[t].concat(n));for(var o=e.length,i=0;i<o;i++){var a=e[i];a.apply(a,n)}}};var We=He();function Je(e){return Je="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},Je(e)}function Ge(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function Ve(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function Ye(e,t,n){return t&&Ve(e.prototype,t),n&&Ve(e,n),Object.defineProperty(e,"prototype",{writable:!1}),e}function Xe(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),Object.defineProperty(e,"prototype",{writable:!1}),t&&Qe(e,t)}function Ke(e){return Ke=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)},Ke(e)}function Qe(e,t){return Qe=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e},Qe(e,t)}function et(e,t){if(t&&("object"==typeof t||"function"==typeof t))return t;if(void 0!==t)throw new TypeError("Derived constructors may only return object or undefined");return function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(e)}function tt(e){var t=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){}))),!0}catch(e){return!1}}();return function(){var n,r=Ke(e);if(t){var o=Ke(this).constructor;n=Reflect.construct(r,arguments,o)}else n=r.apply(this,arguments);return et(this,n)}}function nt(e,t){return function(e){if(Array.isArray(e))return e}(e)||function(e,t){var n=null==e?null:"undefined"!=typeof Symbol&&e[Symbol.iterator]||e["@@iterator"];if(null==n)return;var r,o,i=[],a=!0,s=!1;try{for(n=n.call(e);!(a=(r=n.next()).done)&&(i.push(r.value),!t||i.length!==t);a=!0);}catch(e){s=!0,o=e}finally{try{a||null==n.return||n.return()}finally{if(s)throw o}}return i}(e,t)||ot(e,t)||function(){throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}()}function rt(e){return function(e){if(Array.isArray(e))return it(e)}(e)||function(e){if("undefined"!=typeof Symbol&&null!=e[Symbol.iterator]||null!=e["@@iterator"])return Array.from(e)}(e)||ot(e)||function(){throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}()}function ot(e,t){if(e){if("string"==typeof e)return it(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(e):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?it(e,t):void 0}}function it(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,r=new Array(t);n<t;n++)r[n]=e[n];return r}function at(e,t){var n="undefined"!=typeof Symbol&&e[Symbol.iterator]||e["@@iterator"];if(!n){if(Array.isArray(e)||(n=ot(e))||t&&e&&"number"==typeof e.length){n&&(e=n);var r=0,o=function(){};return{s:o,n:function(){return r>=e.length?{done:!0}:{done:!1,value:e[r++]}},e:function(e){throw e},f:o}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var i,a=!0,s=!1;return{s:function(){n=n.call(e)},n:function(){var e=n.next();return a=e.done,e},e:function(e){s=!0,i=e},f:function(){try{a||null==n.return||n.return()}finally{if(s)throw i}}}}
+</tw-passagedata><tw-passagedata pid="90" name="vin" tags="" position="1800,1725" size="100,100">_Fragment:_Fragment+1
+--
+{embed image: &#39;./assets/elda.webp&#39;}
+
+Elle sourit, *&quot; Les vins de Verdegrove sont en effet spéciaux, mais ce qui les rend tels est la terre elle-même, et notre lien avec elle. &quot;*
+
+C&#39;est alors qu&#39;elle me parle de la relique, un ancien artefact qu&#39;elle décrit comme un pacte avec l&#39;esprit de la terre. *&quot; Cette relique amplifie notre connexion avec la nature, rendant nos récoltes abondantes et nos plantes florissantes. Mais ce n&#39;est pas sans prix. Un rituel secret, renouvelé chaque année, assure que ce lien reste bénéfique, pour la terre comme pour nous. &quot;*
+
+Alors que je quitte Elda et les jardins de Verdegrove, je sens que je ne suis plus tout à fait le même. Avec chaque pas, je sens la terre sous mes pieds plus vivante, plus vibrante, comme si j&#39;avais découvert un nouveau langage, un nouveau moyen de comprendre le monde autour de moi. Mon voyage continue, mais je porte désormais avec moi une partie de la sagesse de Verdegrove, un souvenir de la connexion profonde et ancienne que nous partageons tous avec la terre qui nous nourrit.
+
+&gt;[[Reprendre ma route-&gt;Voyage tranquille rivière]]</tw-passagedata><tw-passagedata pid="91" name="ma quête" tags="" position="1950,1700" size="100,100">_Fragment:_Fragment+1
+--
+{embed image: &#39;./assets/elda.webp&#39;}
+*&quot; Tu as un passé intéressant, &quot;* dit-elle, lisant mes pensées sur mon visage. *&quot; Les Silhouétiens, avec leur profonde connexion aux ombres et à la lumière, comprennent instinctivement ce que beaucoup doivent apprendre : tout est lié, tout est un cycle. &quot;*
+
+Cette rencontre avec Elda m&#39;ouvre les yeux sur plus que les secrets de la terre de Verdegrove. Elle réveille en moi une compréhension plus profonde de mon propre héritage, de la manière dont nos vies sont tissées dans le grand tapis de la nature, chaque fil reliant le passé au présent, les ombres à la lumière.
+
+*&quot;La terre parle à ceux qui savent écouter, &quot;* conclut Elda avec un sourire. *&quot; Peut-être, dans tes voyages, apprendras-tu à entendre non seulement les murmures de la terre sous tes pieds mais aussi les échos de ton propre passé. &quot;*
+
+&gt;[[Reprendre ma route-&gt;Voyage tranquille rivière]]
+</tw-passagedata><tw-passagedata pid="92" name="toitier" tags="" position="700,2650" size="100,100">_Solelhaven: true
+_PassageAvantTirage: passage.name
+_Mauvais:false
+_Bien: false
+_Moyen: false
+--
+{embed image: &#39;./assets/solelhaven_toitier.webp&#39;}
+Perché sur le toit d&#39;une auberge dont l&#39;enseigne danse au gré du vent, l&#39;homme, avec une agilité impressionnante, remplace les tuiles endommagées. Son visage est marqué par le soleil et le sel, témoignant de nombreuses années passées à braver les éléments pour maintenir les bâtiments de Solelhaven en bon état.
+
+Intrigué, je m&#39;approche pour l&#39;observer de plus près. Notant mon intérêt, il s&#39;accorde une pause, essuie la sueur de son front avec le dos de sa main, et me salue d&#39;un signe de tête.
+
+*« Beau travail, »* dis-je, admirant sa dextérité.
+
+Il esquisse un sourire. *« Merci, étranger. Ces tempêtes peuvent être brutales, mais elles nous rappellent aussi combien nous sommes dépendants les uns des autres ici. »*
+
+Sa remarque me pousse à engager la conversation. Entre deux coups de marteau, il partage des anecdotes sur les tempêtes passées, les réparations d&#39;urgence, et la solidarité des habitants de Solelhaven face aux caprices de la nature.
+
+*« Vous savez, »* ajoute-t-il en plaçant une nouvelle tuile, *« chaque toit que je répare me raconte une histoire. Comme celle de l&#39;auberge ici. Elle a vu passer plus d&#39;aventuriers et de marins que la plupart des gens ne pourraient en rencontrer dans une vie entière. »*
+
+La conversation prend une tournure plus philosophique. Il parle de la mer, non seulement comme d&#39;un défi à relever, mais aussi comme d&#39;une source d&#39;inspiration et de réflexion. Puis, comme s&#39;il lisait dans mes pensées, il lance, *« Si vous cherchez l&#39;aventure, Solelhaven est un bon début. Mais c&#39;est à Verdegrove que vous trouverez ce que vous ne saviez pas chercher. Leurs vins sont comme un passage vers une paix intérieure que peu découvrent. »*
+
+Cette information énigmatique résonne en moi. Verdegrove... Je n&#39;avais pas envisagé de m&#39;y rendre, mais maintenant, la curiosité et une quête inattendue pour la paix intérieure m&#39;y appellent.
+
+Je remercie le toitier pour la conversation et ses conseils. *« Peut-être nous reverrons-nous, »* dis-je en partant.
+
+*« Peut-être, »* répond-il avec un sourire, avant de se remettre au travail, laissant résonner à nouveau le son de son marteau contre les tuiles.
+
+&gt;[[Poursuivre ma visite de Solelhaven-&gt;Solelhaven]] 
+&gt;[[Aller à Verdegrove-&gt;Verdegrove]] 
+&gt;[[Vous pouvez toujours tirer une carte pour inspirer votre journée-&gt;Tirage]]</tw-passagedata><tw-passagedata pid="93" name="Enfant content" tags="" position="825,2650" size="100,100">_Solelhaven: true
+_PassageAvantTirage: passage.name
+_Mauvais:false
+_Bien: false
+_Moyen: false
+--
+Il est là, immobile, ses yeux grands ouverts fixés sur moi. Dans son regard, je discerne une curiosité mélangée à une once de méfiance, comme s&#39;il tentait de percer le voile de mes intentions sans oser s&#39;approcher davantage. L&#39;enfant est vêtu simplement, ses vêtements élimés témoignant des jeux insouciants et des escapades à travers les ruelles étroites de Solelhaven.
+
+Intrigué, je m&#39;arrête, offrant à l&#39;enfant un sourire bienveillant, une invitation silencieuse à briser la distance qui nous sépare. Mais il reste là, hésitant, comme s&#39;il pesait le pour et le contre de s&#39;engager dans une conversation avec un étranger.
+
+&gt;[[Je décide de passer mon chemin-&gt;Port_Solelhaven]] 
+&gt;[[J&#39;engage la conversation-&gt;Petille]] </tw-passagedata><tw-passagedata pid="94" name="Ayla" tags="" position="3550,900" size="100,100">En acceptant son invitation, je me retrouve plongé au sein de la tribu d&#39;Ayla, la Gardienne des Eaux. Elle se tient là, majestueuse et sage, une figure maternelle pour son peuple nomade des Veilleurs de la Rivière. Sa réputation de savante et de protectrice des ressources en eau n&#39;est pas exagérée. Je découvre qu&#39;elle a cartographié les sources souterraines grâce à une ancienne technique héritée de ses ancêtres, assurant ainsi la survie de sa tribu et de celles qui les entourent.
+
+Ayla me partage l&#39;histoire de son peuple, de ses luttes et de ses triomphes, tandis que je me sens transporté dans un autre monde, loin des soucis de ma propre existence. Je découvre avec émerveillement l&#39;artefact qu&#39;elle garde précieusement, un objet mystérieux qui indique la pureté de l&#39;eau. C&#39;est grâce à cet artefact que sa tribu ne connaît jamais la soif, un symbole tangible de la sagesse et du dévouement d&#39;Ayla envers son peuple.
+
+Dans cette caravane nomade, je trouve bien plus que de simples compagnons de voyage. Je découvre un sens de communauté et de solidarité qui transcende les frontières et les différences. Et tandis que les étoiles commencent à scintiller dans le ciel nocturne, je réalise que mon périple dans les Terres d&#39;Echo ne fait que commencer.
+
+&gt;[[Reprendre ma roue vers les Terres Frontalières -&gt;les Terres Frontalières.]] </tw-passagedata></tw-storydata><script>!function(){"use strict";var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{};function t(e){if(e.__esModule)return e;var t=Object.defineProperty({},"__esModule",{value:!0});return Object.keys(e).forEach((function(n){var r=Object.getOwnPropertyDescriptor(e,n);Object.defineProperty(t,n,r.get?r:{enumerable:!0,get:function(){return e[n]}})})),t}var n="undefined"!=typeof global?global:"undefined"!=typeof self?self:"undefined"!=typeof window?window:{};function r(){throw new Error("setTimeout has not been defined")}function o(){throw new Error("clearTimeout has not been defined")}var i=r,a=o;function s(e){if(i===setTimeout)return setTimeout(e,0);if((i===r||!i)&&setTimeout)return i=setTimeout,setTimeout(e,0);try{return i(e,0)}catch(t){try{return i.call(null,e,0)}catch(t){return i.call(this,e,0)}}}"function"==typeof n.setTimeout&&(i=setTimeout),"function"==typeof n.clearTimeout&&(a=clearTimeout);var c,l=[],u=!1,f=-1;function p(){u&&c&&(u=!1,c.length?l=c.concat(l):f=-1,l.length&&d())}function d(){if(!u){var e=s(p);u=!0;for(var t=l.length;t;){for(c=l,l=[];++f<t;)c&&c[f].run();f=-1,t=l.length}c=null,u=!1,function(e){if(a===clearTimeout)return clearTimeout(e);if((a===o||!a)&&clearTimeout)return a=clearTimeout,clearTimeout(e);try{a(e)}catch(t){try{return a.call(null,e)}catch(t){return a.call(this,e)}}}(e)}}function h(e,t){this.fun=e,this.array=t}h.prototype.run=function(){this.fun.apply(null,this.array)};function g(){}var m=g,b=g,v=g,y=g,w=g,k=g,x=g;var S=n.performance||{},_=S.now||S.mozNow||S.msNow||S.oNow||S.webkitNow||function(){return(new Date).getTime()};var E=new Date;var C={nextTick:function(e){var t=new Array(arguments.length-1);if(arguments.length>1)for(var n=1;n<arguments.length;n++)t[n-1]=arguments[n];l.push(new h(e,t)),1!==l.length||u||s(d)},title:"browser",browser:!0,env:{},argv:[],version:"",versions:{},on:m,addListener:b,once:v,off:y,removeListener:w,removeAllListeners:k,emit:x,binding:function(e){throw new Error("process.binding is not supported")},cwd:function(){return"/"},chdir:function(e){throw new Error("process.chdir is not supported")},umask:function(){return 0},hrtime:function(e){var t=.001*_.call(S),n=Math.floor(t),r=Math.floor(t%1*1e9);return e&&(n-=e[0],(r-=e[1])<0&&(n--,r+=1e9)),[n,r]},platform:"browser",release:{},config:{},uptime:function(){return(new Date-E)/1e3}};function A(e){return null!=e&&(!!e._isBuffer||O(e)||function(e){return"function"==typeof e.readFloatLE&&"function"==typeof e.slice&&O(e.slice(0,0))}(e))}function O(e){return!!e.constructor&&"function"==typeof e.constructor.isBuffer&&e.constructor.isBuffer(e)}void 0===n.TYPED_ARRAY_SUPPORT||n.TYPED_ARRAY_SUPPORT;var T="function"==typeof Object.create?function(e,t){e.super_=t,e.prototype=Object.create(t.prototype,{constructor:{value:e,enumerable:!1,writable:!0,configurable:!0}})}:function(e,t){e.super_=t;var n=function(){};n.prototype=t.prototype,e.prototype=new n,e.prototype.constructor=e};function j(e,t){var n={seen:[],stylize:L};return arguments.length>=3&&(n.depth=arguments[2]),arguments.length>=4&&(n.colors=arguments[3]),D(t)?n.showHidden=t:t&&J(n,t),R(n.showHidden)&&(n.showHidden=!1),R(n.depth)&&(n.depth=2),R(n.colors)&&(n.colors=!1),R(n.customInspect)&&(n.customInspect=!0),n.colors&&(n.stylize=z),N(n,e,n.depth)}function z(e,t){var n=j.styles[t];return n?"["+j.colors[n][0]+"m"+e+"["+j.colors[n][1]+"m":e}function L(e,t){return e}function N(e,t,n){if(e.customInspect&&t&&H(t.inspect)&&t.inspect!==j&&(!t.constructor||t.constructor.prototype!==t)){var r=t.inspect(n,e);return q(r)||(r=N(e,r,n)),r}var o=function(e,t){if(R(t))return e.stylize("undefined","undefined");if(q(t)){var n="'"+JSON.stringify(t).replace(/^"|"$/g,"").replace(/'/g,"\\'").replace(/\\"/g,'"')+"'";return e.stylize(n,"string")}if(r=t,"number"==typeof r)return e.stylize(""+t,"number");var r;if(D(t))return e.stylize(""+t,"boolean");if(P(t))return e.stylize("null","null")}(e,t);if(o)return o;var i=Object.keys(t),a=function(e){var t={};return e.forEach((function(e,n){t[e]=!0})),t}(i);if(e.showHidden&&(i=Object.getOwnPropertyNames(t)),U(t)&&(i.indexOf("message")>=0||i.indexOf("description")>=0))return $(t);if(0===i.length){if(H(t)){var s=t.name?": "+t.name:"";return e.stylize("[Function"+s+"]","special")}if(M(t))return e.stylize(RegExp.prototype.toString.call(t),"regexp");if(B(t))return e.stylize(Date.prototype.toString.call(t),"date");if(U(t))return $(t)}var c,l,u="",f=!1,p=["{","}"];(c=t,Array.isArray(c)&&(f=!0,p=["[","]"]),H(t))&&(u=" [Function"+(t.name?": "+t.name:"")+"]");return M(t)&&(u=" "+RegExp.prototype.toString.call(t)),B(t)&&(u=" "+Date.prototype.toUTCString.call(t)),U(t)&&(u=" "+$(t)),0!==i.length||f&&0!=t.length?n<0?M(t)?e.stylize(RegExp.prototype.toString.call(t),"regexp"):e.stylize("[Object]","special"):(e.seen.push(t),l=f?function(e,t,n,r,o){for(var i=[],a=0,s=t.length;a<s;++a)G(t,String(a))?i.push(I(e,t,n,r,String(a),!0)):i.push("");return o.forEach((function(o){o.match(/^\d+$/)||i.push(I(e,t,n,r,o,!0))})),i}(e,t,n,a,i):i.map((function(r){return I(e,t,n,a,r,f)})),e.seen.pop(),function(e,t,n){if(e.reduce((function(e,t){return t.indexOf("\n"),e+t.replace(/\u001b\[\d\d?m/g,"").length+1}),0)>60)return n[0]+(""===t?"":t+"\n ")+" "+e.join(",\n  ")+" "+n[1];return n[0]+t+" "+e.join(", ")+" "+n[1]}(l,u,p)):p[0]+u+p[1]}function $(e){return"["+Error.prototype.toString.call(e)+"]"}function I(e,t,n,r,o,i){var a,s,c;if((c=Object.getOwnPropertyDescriptor(t,o)||{value:t[o]}).get?s=c.set?e.stylize("[Getter/Setter]","special"):e.stylize("[Getter]","special"):c.set&&(s=e.stylize("[Setter]","special")),G(r,o)||(a="["+o+"]"),s||(e.seen.indexOf(c.value)<0?(s=P(n)?N(e,c.value,null):N(e,c.value,n-1)).indexOf("\n")>-1&&(s=i?s.split("\n").map((function(e){return"  "+e})).join("\n").substr(2):"\n"+s.split("\n").map((function(e){return"   "+e})).join("\n")):s=e.stylize("[Circular]","special")),R(a)){if(i&&o.match(/^\d+$/))return s;(a=JSON.stringify(""+o)).match(/^"([a-zA-Z_][a-zA-Z_0-9]*)"$/)?(a=a.substr(1,a.length-2),a=e.stylize(a,"name")):(a=a.replace(/'/g,"\\'").replace(/\\"/g,'"').replace(/(^"|"$)/g,"'"),a=e.stylize(a,"string"))}return a+": "+s}function D(e){return"boolean"==typeof e}function P(e){return null===e}function q(e){return"string"==typeof e}function R(e){return void 0===e}function M(e){return F(e)&&"[object RegExp]"===W(e)}function F(e){return"object"==typeof e&&null!==e}function B(e){return F(e)&&"[object Date]"===W(e)}function U(e){return F(e)&&("[object Error]"===W(e)||e instanceof Error)}function H(e){return"function"==typeof e}function Z(e){return null===e||"boolean"==typeof e||"number"==typeof e||"string"==typeof e||"symbol"==typeof e||void 0===e}function W(e){return Object.prototype.toString.call(e)}function J(e,t){if(!t||!F(t))return e;for(var n=Object.keys(t),r=n.length;r--;)e[n[r]]=t[n[r]];return e}function G(e,t){return Object.prototype.hasOwnProperty.call(e,t)}function V(e,t){if(e===t)return 0;for(var n=e.length,r=t.length,o=0,i=Math.min(n,r);o<i;++o)if(e[o]!==t[o]){n=e[o],r=t[o];break}return n<r?-1:r<n?1:0}j.colors={bold:[1,22],italic:[3,23],underline:[4,24],inverse:[7,27],white:[37,39],grey:[90,39],black:[30,39],blue:[34,39],cyan:[36,39],green:[32,39],magenta:[35,39],red:[31,39],yellow:[33,39]},j.styles={special:"cyan",number:"yellow",boolean:"yellow",undefined:"grey",null:"bold",string:"green",date:"magenta",regexp:"red"};var Y,X=Object.prototype.hasOwnProperty,K=Object.keys||function(e){var t=[];for(var n in e)X.call(e,n)&&t.push(n);return t},Q=Array.prototype.slice;function ee(){return void 0!==Y?Y:Y="foo"===function(){}.name}function te(e){return Object.prototype.toString.call(e)}function ne(e){return!A(e)&&("function"==typeof n.ArrayBuffer&&("function"==typeof ArrayBuffer.isView?ArrayBuffer.isView(e):!!e&&(e instanceof DataView||!!(e.buffer&&e.buffer instanceof ArrayBuffer))))}function re(e,t){e||le(e,!0,t,"==",ue)}var oe=/\s*function\s+([^\(\s]*)\s*/;function ie(e){if(H(e)){if(ee())return e.name;var t=e.toString().match(oe);return t&&t[1]}}function ae(e){this.name="AssertionError",this.actual=e.actual,this.expected=e.expected,this.operator=e.operator,e.message?(this.message=e.message,this.generatedMessage=!1):(this.message=function(e){return se(ce(e.actual),128)+" "+e.operator+" "+se(ce(e.expected),128)}(this),this.generatedMessage=!0);var t=e.stackStartFunction||le;if(Error.captureStackTrace)Error.captureStackTrace(this,t);else{var n=new Error;if(n.stack){var r=n.stack,o=ie(t),i=r.indexOf("\n"+o);if(i>=0){var a=r.indexOf("\n",i+1);r=r.substring(a+1)}this.stack=r}}}function se(e,t){return"string"==typeof e?e.length<t?e:e.slice(0,t):e}function ce(e){if(ee()||!H(e))return j(e);var t=ie(e);return"[Function"+(t?": "+t:"")+"]"}function le(e,t,n,r,o){throw new ae({message:n,actual:e,expected:t,operator:r,stackStartFunction:o})}function ue(e,t){e||le(e,!0,t,"==",ue)}function fe(e,t,n){e!=t&&le(e,t,n,"==",fe)}function pe(e,t,n){e==t&&le(e,t,n,"!=",pe)}function de(e,t,n){ge(e,t,!1)||le(e,t,n,"deepEqual",de)}function he(e,t,n){ge(e,t,!0)||le(e,t,n,"deepStrictEqual",he)}function ge(e,t,n,r){if(e===t)return!0;if(A(e)&&A(t))return 0===V(e,t);if(B(e)&&B(t))return e.getTime()===t.getTime();if(M(e)&&M(t))return e.source===t.source&&e.global===t.global&&e.multiline===t.multiline&&e.lastIndex===t.lastIndex&&e.ignoreCase===t.ignoreCase;if(null!==e&&"object"==typeof e||null!==t&&"object"==typeof t){if(ne(e)&&ne(t)&&te(e)===te(t)&&!(e instanceof Float32Array||e instanceof Float64Array))return 0===V(new Uint8Array(e.buffer),new Uint8Array(t.buffer));if(A(e)!==A(t))return!1;var o=(r=r||{actual:[],expected:[]}).actual.indexOf(e);return-1!==o&&o===r.expected.indexOf(t)||(r.actual.push(e),r.expected.push(t),function(e,t,n,r){if(null==e||null==t)return!1;if(Z(e)||Z(t))return e===t;if(n&&Object.getPrototypeOf(e)!==Object.getPrototypeOf(t))return!1;var o=me(e),i=me(t);if(o&&!i||!o&&i)return!1;if(o)return ge(e=Q.call(e),t=Q.call(t),n);var a,s,c=K(e),l=K(t);if(c.length!==l.length)return!1;for(c.sort(),l.sort(),s=c.length-1;s>=0;s--)if(c[s]!==l[s])return!1;for(s=c.length-1;s>=0;s--)if(!ge(e[a=c[s]],t[a],n,r))return!1;return!0}(e,t,n,r))}return n?e===t:e==t}function me(e){return"[object Arguments]"==Object.prototype.toString.call(e)}function be(e,t,n){ge(e,t,!1)&&le(e,t,n,"notDeepEqual",be)}function ve(e,t,n){ge(e,t,!0)&&le(e,t,n,"notDeepStrictEqual",ve)}function ye(e,t,n){e!==t&&le(e,t,n,"===",ye)}function we(e,t,n){e===t&&le(e,t,n,"!==",we)}function ke(e,t){if(!e||!t)return!1;if("[object RegExp]"==Object.prototype.toString.call(t))return t.test(e);try{if(e instanceof t)return!0}catch(e){}return!Error.isPrototypeOf(t)&&!0===t.call({},e)}function xe(e,t,n,r){var o;if("function"!=typeof t)throw new TypeError('"block" argument must be a function');"string"==typeof n&&(r=n,n=null),o=function(e){var t;try{e()}catch(e){t=e}return t}(t),r=(n&&n.name?" ("+n.name+").":".")+(r?" "+r:"."),e&&!o&&le(o,n,"Missing expected exception"+r);var i="string"==typeof r,a=!e&&o&&!n;if((!e&&U(o)&&i&&ke(o,n)||a)&&le(o,n,"Got unwanted exception"+r),e&&o&&n&&!ke(o,n)||!e&&o)throw o}function Se(e,t,n){xe(!0,e,t,n)}function _e(e,t,n){xe(!1,e,t,n)}function Ee(e){if(e)throw e}re.AssertionError=ae,T(ae,Error),re.fail=le,re.ok=ue,re.equal=fe,re.notEqual=pe,re.deepEqual=de,re.deepStrictEqual=he,re.notDeepEqual=be,re.notDeepStrictEqual=ve,re.strictEqual=ye,re.notStrictEqual=we,re.throws=Se,re.doesNotThrow=_e,re.ifError=Ee;var Ce=t(Object.freeze({__proto__:null,default:re,AssertionError:ae,fail:le,ok:ue,assert:ue,equal:fe,notEqual:pe,deepEqual:de,deepStrictEqual:he,notDeepEqual:be,notDeepStrictEqual:ve,strictEqual:ye,notStrictEqual:we,throws:Se,doesNotThrow:_e,ifError:Ee})),Ae=Ce,Oe="undefined"!=typeof window;function Te(e){this.hasWindow=e,this.hasIdle=this.hasWindow&&window.requestIdleCallback,this.method=this.hasIdle?window.requestIdleCallback.bind(window):this.setTimeout,this.scheduled=!1,this.queue=[]}Te.prototype.push=function(e){Ae.equal(typeof e,"function","nanoscheduler.push: cb should be type function"),this.queue.push(e),this.schedule()},Te.prototype.schedule=function(){if(!this.scheduled){this.scheduled=!0;var e=this;this.method((function(t){for(;e.queue.length&&t.timeRemaining()>0;)e.queue.shift()(t);e.scheduled=!1,e.queue.length&&e.schedule()}))}},Te.prototype.setTimeout=function(e){setTimeout(e,0,{timeRemaining:function(){return 1}})};var je,ze=function(){var e;return Oe?(window._nanoScheduler||(window._nanoScheduler=new Te(!0)),e=window._nanoScheduler):e=new Te,e},Le=ze(),Ne=Ce;Ie.disabled=!0;try{je=window.performance,Ie.disabled="true"===window.localStorage.DISABLE_NANOTIMING||!je.mark}catch(e){}var $e=Ie;function Ie(e){if(Ne.equal(typeof e,"string","nanotiming: name should be type string"),Ie.disabled)return De;var t=(1e4*je.now()).toFixed()%Number.MAX_SAFE_INTEGER,n="start-"+t+"-"+e;function r(r){var o="end-"+t+"-"+e;je.mark(o),Le.push((function(){var i=null;try{var a=e+" ["+t+"]";je.measure(a,n,o),je.clearMarks(n),je.clearMarks(o)}catch(e){i=e}r&&r(i,e)}))}return je.mark(n),r.uuid=t,r}function De(e){e&&Le.push((function(){e(new Error("nanotiming: performance API unavailable"))}))}var Pe,qe=Ce;Re.disabled=!0;try{Pe=require("perf_hooks").performance,Re.disabled=C.env.DISABLE_NANOTIMING||!Pe.mark}catch(e){}function Re(e){if("undefined"!=typeof window)return $e(e);if(qe.equal(typeof e,"string","nanotiming: name should be type string"),Re.disabled)return Me;var t=(1e4*Pe.now()).toFixed()%Number.MAX_SAFE_INTEGER,n="start-"+t+"-"+e;function r(r){var o="end-"+t+"-"+e;Pe.mark(o);var i=null;try{var a=e+" ["+t+"]";Pe.measure(a,n,o),Pe.clearMarks(n),Pe.clearMarks(o)}catch(e){i=e}r&&r(i,e)}return Pe.mark(n),r.uuid=t,r}function Me(e){e&&e(new Error("nanotiming: performance API unavailable"))}var Fe=function(e,t,n){var r,o=e.length;if(!(t>=o||0===n)){var i=o-(n=t+n>o?o-t:n);for(r=t;r<i;++r)e[r]=e[r+n];e.length=i}},Be=Re,Ue=Ce,He=Ze;function Ze(e){if(!(this instanceof Ze))return new Ze(e);this._name=e||"nanobus",this._starListeners=[],this._listeners={}}Ze.prototype.emit=function(e){Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.emit: eventName should be type string or symbol");for(var t=[],n=1,r=arguments.length;n<r;n++)t.push(arguments[n]);var o=Be(this._name+"('"+e.toString()+"')"),i=this._listeners[e];return i&&i.length>0&&this._emit(this._listeners[e],t),this._starListeners.length>0&&this._emit(this._starListeners,e,t,o.uuid),o(),this},Ze.prototype.on=Ze.prototype.addListener=function(e,t){return Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.on: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.on: listener should be type function"),"*"===e?this._starListeners.push(t):(this._listeners[e]||(this._listeners[e]=[]),this._listeners[e].push(t)),this},Ze.prototype.prependListener=function(e,t){return Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.prependListener: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.prependListener: listener should be type function"),"*"===e?this._starListeners.unshift(t):(this._listeners[e]||(this._listeners[e]=[]),this._listeners[e].unshift(t)),this},Ze.prototype.once=function(e,t){Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.once: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.once: listener should be type function");var n=this;return this.on(e,(function r(){t.apply(n,arguments),n.removeListener(e,r)})),this},Ze.prototype.prependOnceListener=function(e,t){Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.prependOnceListener: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.prependOnceListener: listener should be type function");var n=this;return this.prependListener(e,(function r(){t.apply(n,arguments),n.removeListener(e,r)})),this},Ze.prototype.removeListener=function(e,t){return Ue.ok("string"==typeof e||"symbol"==typeof e,"nanobus.removeListener: eventName should be type string or symbol"),Ue.equal(typeof t,"function","nanobus.removeListener: listener should be type function"),"*"===e?(this._starListeners=this._starListeners.slice(),n(this._starListeners,t)):(void 0!==this._listeners[e]&&(this._listeners[e]=this._listeners[e].slice()),n(this._listeners[e],t));function n(e,t){if(e){var n=e.indexOf(t);return-1!==n?(Fe(e,n,1),!0):void 0}}},Ze.prototype.removeAllListeners=function(e){return e?"*"===e?this._starListeners=[]:this._listeners[e]=[]:(this._starListeners=[],this._listeners={}),this},Ze.prototype.listeners=function(e){var t="*"!==e?this._listeners[e]:this._starListeners,n=[];if(t)for(var r=t.length,o=0;o<r;o++)n.push(t[o]);return n},Ze.prototype._emit=function(e,t,n,r){if(void 0!==e&&0!==e.length){void 0===n&&(n=t,t=null),t&&(n=void 0!==r?[t].concat(n,r):[t].concat(n));for(var o=e.length,i=0;i<o;i++){var a=e[i];a.apply(a,n)}}};var We=He();function Je(e){return Je="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},Je(e)}function Ge(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function Ve(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function Ye(e,t,n){return t&&Ve(e.prototype,t),n&&Ve(e,n),Object.defineProperty(e,"prototype",{writable:!1}),e}function Xe(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),Object.defineProperty(e,"prototype",{writable:!1}),t&&Qe(e,t)}function Ke(e){return Ke=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)},Ke(e)}function Qe(e,t){return Qe=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e},Qe(e,t)}function et(e,t){if(t&&("object"==typeof t||"function"==typeof t))return t;if(void 0!==t)throw new TypeError("Derived constructors may only return object or undefined");return function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(e)}function tt(e){var t=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){}))),!0}catch(e){return!1}}();return function(){var n,r=Ke(e);if(t){var o=Ke(this).constructor;n=Reflect.construct(r,arguments,o)}else n=r.apply(this,arguments);return et(this,n)}}function nt(e,t){return function(e){if(Array.isArray(e))return e}(e)||function(e,t){var n=null==e?null:"undefined"!=typeof Symbol&&e[Symbol.iterator]||e["@@iterator"];if(null==n)return;var r,o,i=[],a=!0,s=!1;try{for(n=n.call(e);!(a=(r=n.next()).done)&&(i.push(r.value),!t||i.length!==t);a=!0);}catch(e){s=!0,o=e}finally{try{a||null==n.return||n.return()}finally{if(s)throw o}}return i}(e,t)||ot(e,t)||function(){throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}()}function rt(e){return function(e){if(Array.isArray(e))return it(e)}(e)||function(e){if("undefined"!=typeof Symbol&&null!=e[Symbol.iterator]||null!=e["@@iterator"])return Array.from(e)}(e)||ot(e)||function(){throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}()}function ot(e,t){if(e){if("string"==typeof e)return it(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(e):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?it(e,t):void 0}}function it(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,r=new Array(t);n<t;n++)r[n]=e[n];return r}function at(e,t){var n="undefined"!=typeof Symbol&&e[Symbol.iterator]||e["@@iterator"];if(!n){if(Array.isArray(e)||(n=ot(e))||t&&e&&"number"==typeof e.length){n&&(e=n);var r=0,o=function(){};return{s:o,n:function(){return r>=e.length?{done:!0}:{done:!1,value:e[r++]}},e:function(e){throw e},f:o}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var i,a=!0,s=!1;return{s:function(){n=n.call(e)},n:function(){var e=n.next();return a=e.done,e},e:function(e){s=!0,i=e},f:function(){try{a||null==n.return||n.return()}finally{if(s)throw i}}}}
 /*!
 	 * isobject <https://github.com/jonschlinkert/isobject>
 	 *
